@@ -3,9 +3,14 @@
 // swift-module-flags: -target arm64-apple-ios15.4-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DataflowDiagramSDK
 @_exported import DataflowDiagramSDK
 import Foundation
+import Security
 import Swift
 import _Concurrency
 import simd
+public class License {
+  public init(userName: Swift.String, licenseKey: Swift.String)
+  @objc deinit
+}
 public protocol VariableOutputUpdatesReceiver : AnyObject {
   func newVariableOutputUpdates(_ updates: [(label: Swift.String, value: Any)])
 }
@@ -16,7 +21,7 @@ public class Pose {
   @objc deinit
 }
 public class DataflowDiagram {
-  public init(variableOutputUpdatesReceiver: DataflowDiagramSDK.VariableOutputUpdatesReceiver? = nil)
+  public init(variableOutputUpdatesReceiver: DataflowDiagramSDK.VariableOutputUpdatesReceiver? = nil, license: DataflowDiagramSDK.License? = nil)
   public func read(from jsonString: Swift.String, replace: Swift.Bool = true) -> Swift.Bool
   public func getInputStreams() -> [Swift.String]
   public func getVariableOutputs() -> [(label: Swift.String, typeString: Swift.String)]
