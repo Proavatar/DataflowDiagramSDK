@@ -10,23 +10,17 @@ import simd
 public protocol VariableOutputUpdatesReceiver : AnyObject {
   func newVariableOutputUpdates(_ updates: [(label: Swift.String, value: Any)])
 }
-public class Pose {
-  public var segments: [(name: Swift.String, orientation: simd.simd_quatd)]
-  public var joints: [(name: Swift.String, orientation: simd.simd_quatd, position: simd.simd_double3)]
-  public init()
-  @objc deinit
-}
 public class DataflowDiagram {
   public init(variableOutputUpdatesReceiver: DataflowDiagramSDK.VariableOutputUpdatesReceiver? = nil)
   public func activateLicense(licenseKey: Swift.String, bundleId: Swift.String)
   public func read(from jsonString: Swift.String, replace: Swift.Bool = true) -> Swift.Bool
-  public func getInputStreams() -> [Swift.String]
+  public func getInputStreams() -> [(name: Swift.String, typeString: Swift.String)]
   public func getVariableOutputs() -> [(label: Swift.String, typeString: Swift.String)]
   public func getManualLines() -> [Swift.String]
   public func getJSON() -> Swift.String
   public func getConstants() -> [(label: Swift.String, value: Any)]
   public func setConstant(label: Swift.String, newValue: Any)
-  public func updateInputStreams(timestamp: Foundation.TimeInterval, pose: DataflowDiagramSDK.Pose)
+  public func updateInputStreams(timestamp: Foundation.TimeInterval, inputValues: [Swift.String : Any])
   public func reset()
   @objc deinit
 }
