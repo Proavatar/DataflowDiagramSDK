@@ -3,10 +3,21 @@
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DataflowDiagramSDK
 @_exported import DataflowDiagramSDK
 import Foundation
-import Licensing
+import Security
 import Swift
 import _Concurrency
 import simd
+public class KeyPair {
+  public var privateKey: Swift.String
+  public var publicKey: Swift.String
+  public init(privateKey: Swift.String, publicKey: Swift.String)
+  @objc deinit
+}
+public func generateLicenseKey(privateKey: Swift.String, bundleId: Swift.String) -> Swift.String?
+public func validateLicenseKey(publicKey: Swift.String, licenseKey: Swift.String, bundleId: Swift.String) -> Swift.Bool
+public func generateNewAsymetricKeyPair() -> DataflowDiagramSDK.KeyPair?
+public func createLicenseFile(sdkName: Swift.String, licenseKey: Swift.String, bundleId: Swift.String)
+public func getLicenseInformation(sdkName: Swift.String, licenseKey: Swift.String, bundleId: Swift.String) -> Swift.String
 public protocol VariableOutputUpdatesReceiver : AnyObject {
   func newVariableOutputUpdates(_ updates: [(label: Swift.String, value: Any)])
 }
