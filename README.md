@@ -202,7 +202,7 @@ public func setInputStreamForwarding( label:String, forwarding:Bool )
 ```
 Note that the application could use the type (see “[Variable types](#variable-types)”) to determine how to use or present it.
 
-## Resetting the diagram
+# Resetting the diagram
 While the inputs are updated, the internal temporal state of the diagram changes as it can contain buffers or the update for some functions might be pending because not all the inputs are updated yet.
 
 To be able to remove any history from the diagram and set the diagram to a state as if no update occurred yet, the `reset()` method of the dataflow diagram can be called.
