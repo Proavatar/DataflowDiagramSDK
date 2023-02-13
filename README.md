@@ -44,6 +44,22 @@ The architecture of an algorithm is given in the figure below.
 
 ![Algorithm architecture](https://docs.google.com/drawings/d/e/2PACX-1vSvBzU94EUyZuSgtF89ilkc0b4H9OGCylEuF5Fz3cElTkvVr_sJM2TJnrOXAU-hm-K4ul-KwO1VXV1r/pub?w=861&h=319)
 
+For the dataflow diagram I/O two structures are defined:
+
+```swift
+public struct DataflowDiagramInput
+{
+    public let timestamp : TimeInterval
+    public var updates   : [String:Any]
+}
+
+public struct DataflowDiagramOutput
+{
+    public let timestamp : TimeInterval
+    public var outputs   : [String:Any]
+}
+```
+
 ## Variable types
 
 In a dataflow diagram several timestamped variables can be used. For example, the orientation of a segment is a timestamped orientation and the position of a joint is a timestamped vector.
