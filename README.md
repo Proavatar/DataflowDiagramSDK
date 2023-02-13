@@ -36,10 +36,6 @@ By default the SDK can be used without a license, but only allows loading diagra
 
 >To request a license, please contact [sales@proavatar.io](mailto:sales@proavatar.io?subject=Dataflow%20Diagram%20SDK%20license%20request).
 
-All required functionality is implemented in the `DataflowDiagram` class. To use this class, place the following import in your Swift files:
-
-In the following this functionality is described in more detail.
-
 ## Dataflow diagram I/O
 
 Consider an algorithm that takes one or more sensor data streams as *input* and calculates some kind of *output*. Such an algorithm is constructed - or implemented - by creating a *dataflow diagram* that uses *input streams* and a number of interconnected *functions* to calculate the value of one or more *variable outputs* of specific types. These can then be used by a connected reporting system like a graphical user interface (GUI) for example. Any settings of the diagram – that can be changed by the executing application – are implemented by using *constants*.
