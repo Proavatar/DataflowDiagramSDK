@@ -84,12 +84,14 @@ Before a dataflow diagram can be used to run a specific algorithm, an instance o
 
 ### Update protocol
 The dataflow diagram will indicate the updates of the variable outputs using the `VariableOutputUpdatesReceiver` protocol which has one function.
+
 ```swift
 public protocol VariableOutputUpdatesReceiver : AnyObject
 {
-    func newVariableOutputUpdates(_ updates: [String:Any] )
+    func newVariableOutputUpdates(_ output: DataflowDiagramOutput )
 }
 ```
+
 As such, any object in the application that is going to process these updates needs to comply with this protocol and implement this function.
 
 ### Instantiation
@@ -159,18 +161,21 @@ As mentioned above, there can be constants with the same label. Calling the func
 As described in “[Dataflow diagram I/O](#dataflow-diagram-io)”, the application must supply the updates for the diagram which it can use to calculate the outputs.
 
 ## Update the input streams
-Whenever the application has updated information, it needs to fill an inputValues dictionary and call the `updateInputStreams()` method of the dataflow diagram.
+Whenever the application has updated information, it needs to create a `DataflowDiagramInput` struct variable and set the `timestamp` field, fill the `updates` dictionary field with the names of the input streams in the diagram. The created variable is then used in a call of the `updateInputStreams()` method of the dataflow diagram.
+
 ```swift
-public func updateInputStreams( timestamp: TimeInterval, inputValues: [String:Any] )
+public func updateInputStreams( diagramInput : DataflowDiagramInput  )
 ```
 
-When the `inputValues` dictionary contains names that are not part of the diagram, these are simply ignored.
+When the `updates` dictionary contains names that are not part of the diagram's input streams, these are simply ignored.
 
 ## Receive updated variable outputs
 When the update results in one or more updates for the specified variable outputs, the delegate's `newVariableOutputUpdates()` protocol function will be called as described in “[Update protocol](#update-protocol)” and repeated below for reference.
+
 ```swift
-public func newVariableOutputUpdates(_ updates: [String:Any] )
+public func newVariableOutputUpdates(_ output: DataflowDiagramOutput )
 ```
+
 ## Hide variable outputs
 By default, all updated variable outputs are offered to the application via the `newVariableOutputUpdates()` protocol function (see "[Receive updated variable outputs](#receive-update-variable-outputs)"). However, as it is possible to have variable outputs that have linked input streams (to allow for diagram loops), it can be preferred that some variable outputs are hidden in order for their updates not to be forwarded to the application, but can still be used by linked input streams. To control the visibility of a variable output, the `setVariableOutputHidden()` method can be called.
 ```swift
