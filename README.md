@@ -83,16 +83,17 @@ Import `simd` for using the `simd_double3` and `simd_quatd` types.
 Before a dataflow diagram can be used to run a specific algorithm, an instance of the `DataflowDiagram` class must be created.
 
 ### Update protocol
-The dataflow diagram will indicate the updates of the variable outputs using the `VariableOutputUpdatesReceiver` protocol which has one function.
+The dataflow diagram will indicate the updates of the variable outputs using the `VariableOutputUpdatesReceiver` protocol which has two functions.
 
 ```swift
 public protocol VariableOutputUpdatesReceiver : AnyObject
 {
     func newVariableOutputUpdates(_ output: DataflowDiagramOutput )
+    func allUpdatesProcessed(_ outputs: [DataflowDiagramOutput] )
 }
 ```
 
-As such, any object in the application that is going to process these updates needs to comply with this protocol and implement this function.
+As such, any object in the application that is going to process these updates needs to comply with this protocol and implement these functions.
 
 ### Instantiation
 To instantiate a dataflow diagram the initialization method takes the reference to the object in the application that complies with the `VariableOutputUpdatesReceiver` protocol.
@@ -174,6 +175,18 @@ When the update results in one or more updates for the specified variable output
 
 ```swift
 public func newVariableOutputUpdates(_ output: DataflowDiagramOutput )
+```
+## Process an array of updates
+When processing for example a file, the processing can be performed in on batch. To do this, the application needs to create an array of `DataflowDiagramInput` structs and for each element in this array set the `timestamp` field and fill the `updates` dictionary field with the names of the input streams in the diagram. The created array is then used in a call of the `processAllUpdates()` method of the dataflow diagram.
+
+```swift
+    public func processAllUpdates( diagramInputs: [DataflowDiagramInput] )
+```
+
+The processing will be performed in the background and when finished, the delegate's `allUpdatesProcessed()` protocol function will be called as described in “[Update protocol](#update-protocol)” and repeated below for reference.
+
+```swift
+    func allUpdatesProcessed(_ outputs: [DataflowDiagramOutput] )
 ```
 
 ## Hide variable outputs
