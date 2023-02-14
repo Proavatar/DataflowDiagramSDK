@@ -189,7 +189,7 @@ The processing will be performed in the background and when finished, the delega
     func allUpdatesProcessed(_ outputs: [DataflowDiagramOutput] )
 ```
 
-### Read updates from a JSONL file
+### Read input from a JSONL file
 
 The SDK offers a functionality to process data when it is available as JSON lines (i.e. using newline '\n' character as line sepeation). An example is given below.
 
@@ -244,8 +244,16 @@ public func readDataflowDiagramInputs( from jsonLines: String ) -> [DataflowDiag
 
 The returned array can then be used in a call to the `processAllUpdates()` method as described in "[Process an array of updates](#process-an-array-of-updates)".
 
+### Write to JSONL file
+
+When an array of diagram inputs is available (for example after a recording), these can be converted into a JSONL file which can be read in later as described in "[Read input from a JSONL file](#read-input-from-a-jsonl-file)". This is done by calling the `createJsonlString()` function.
+
+```swift
+func createJsonlString( from dataflowDiagramInputs : [DataflowDiagramInput] ) -> String
+```
+
 ### Hide variable outputs
-By default, all updated variable outputs are offered to the application via the `newVariableOutputUpdates()` protocol function (see "[Receive updated variable outputs](#receive-update-variable-outputs)"). However, as it is possible to have variable outputs that have linked input streams (to allow for diagram loops), it can be preferred that some variable outputs are hidden in order for their updates not to be forwarded to the application, but can still be used by linked input streams. To control the visibility of a variable output, the `setVariableOutputHidden()` method can be called.
+By default, all updated variable outputs are offered to the application via the `newVariableOutputUpdates()` protocol function (see "[Receive updated variable outputs](#receive-updated-variable-outputs)"). However, as it is possible to have variable outputs that have linked input streams (to allow for diagram loops), it can be preferred that some variable outputs are hidden in order for their updates not to be forwarded to the application, but can still be used by linked input streams. To control the visibility of a variable output, the `setVariableOutputHidden()` method can be called.
 ```swift
 public func setVariableOutputHidden( label:String, hidden:Bool )
 ```
