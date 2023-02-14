@@ -189,6 +189,61 @@ The processing will be performed in the background and when finished, the delega
     func allUpdatesProcessed(_ outputs: [DataflowDiagramOutput] )
 ```
 
+### Read updates from a JSONL file
+
+The SDK offers a functionality to process data when it is available as JSON lines (i.e. using newline '\n' character as line sepeation). An example is given below.
+
+```json
+{"timestamp":12.34,"name":"Left upper leg","orientationValue":{"x":0.2345,"y":0.1234,"z":0.123,"w":0.92}}
+{"timestamp":12.34,"name":"Left lower leg","orientationValue":{"x":0.1234,"y":0.0221,"z":0.002,"w":0.82}}
+{"timestamp":12.54,"name":"Left upper leg","orientationValue":{"x":0.1345,"y":0.4234,"z":0.163,"w":0.92}}
+{"timestamp":12.54,"name":"Left lower leg","orientationValue":{"x":0.1334,"y":0.0221,"z":0.002,"w":0.42}}
+```
+
+The JSON schema for a line in a data file is given below.
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "timestamp": {"type": "number"},
+    "name": {"type": "string"},
+    "floatValue": {"type": "number"},
+    "integerValue": {"type": "integer"},
+    "vectorValue": {
+      "type": "object",
+      "properties": {
+        "x": {"type": "number"},
+        "y": {"type": "number"},
+        "z": {"type": "number"}
+      },
+      "required": ["x", "y", "z"]
+    },
+    "booleanValue": {"type": "boolean"},
+    "orientationValue": {
+      "type": "object",
+      "properties": {
+        "x": {"type": "number"},
+        "y": {"type": "number"},
+        "z": {"type": "number"},
+        "w": {"type": "number"}
+      },
+      "required": ["x", "y", "z", "w"]
+    },
+    "stringValue": {"type": "string"}
+  },
+  "required": ["timestamp", "name"]
+}
+```
+
+To process a JSONL string (as read from a file), the `readDataflowDiagramInputs()` function can be called.
+
+```swift
+public func readDataflowDiagramInputs( from jsonLines: String ) -> [DataflowDiagramInput]
+```
+
+The returned array can then be used in a call to the `processAllUpdates()` method as described in "[Process an array of updates](#process-an-array-of-updates)".
+
 ### Hide variable outputs
 By default, all updated variable outputs are offered to the application via the `newVariableOutputUpdates()` protocol function (see "[Receive updated variable outputs](#receive-update-variable-outputs)"). However, as it is possible to have variable outputs that have linked input streams (to allow for diagram loops), it can be preferred that some variable outputs are hidden in order for their updates not to be forwarded to the application, but can still be used by linked input streams. To control the visibility of a variable output, the `setVariableOutputHidden()` method can be called.
 ```swift
