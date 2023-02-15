@@ -272,3 +272,11 @@ To be able to remove any history from the diagram and set the diagram to a state
 ```swift
 public func reset()
 ```
+
+## String representations
+
+To get the string representation of a dataflow diagram output value, the getValueString() function can be called.
+
+```swift
+public func getValueString(_ value : Any ) -> String
+```
