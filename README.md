@@ -246,10 +246,10 @@ The returned array can then be used in a call to the `processAllUpdates()` metho
 
 ### Write to JSONL file
 
-When an array of diagram inputs is available (for example after a recording), these can be converted into a JSONL file which can be read in later as described in "[Read input from a JSONL file](#read-input-from-a-jsonl-file)". This is done by calling the `createJsonlString()` function.
+When an array of diagram inputs is available (for example after a recording), these can be converted into a JSONL file which can be read in later as described in "[Read input from a JSONL file](#read-input-from-a-jsonl-file)". This is done by calling the `createJsonLines()` function.
 
 ```swift
-func createJsonlString( from dataflowDiagramInputs : [DataflowDiagramInput] ) -> String
+func createJsonLines( from dataflowDiagramInputs : [DataflowDiagramInput] ) -> String
 ```
 
 ### Hide variable outputs
