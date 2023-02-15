@@ -191,7 +191,7 @@ The processing will be performed in the background and when finished, the delega
 
 ### Read input from a JSONL file
 
-The SDK offers a functionality to process data when it is available as JSON lines (i.e. using newline '\n' character as line sepeation). An example is given below.
+The SDK offers a functionality to process data when it is available as JSON lines (i.e. using newline '\n' character as line separation). An example is given below.
 
 ```json
 {"timestamp":12.34,"name":"Left upper leg","orientationValue":{"x":0.2345,"y":0.1234,"z":0.123,"w":0.92}}
