@@ -67,10 +67,12 @@ public func createJsonLines(from dataflowDiagramInputs: [DataflowDiagramSDK.Data
 public struct DataflowDiagramInput {
   public let timestamp: Foundation.TimeInterval
   public var updates: [Swift.String : Any]
+  public init(timestamp: Foundation.TimeInterval, updates: [Swift.String : Any])
 }
 public struct DataflowDiagramOutput {
   public let timestamp: Foundation.TimeInterval
   public var outputs: [Swift.String : Any]
+  public init(timestamp: Foundation.TimeInterval, outputs: [Swift.String : Any])
 }
 public protocol VariableOutputUpdatesReceiver : AnyObject {
   func newVariableOutputUpdates(_ output: DataflowDiagramSDK.DataflowDiagramOutput)

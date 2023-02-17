@@ -1209,6 +1209,52 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timestamp:updates:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataflowDiagramInput",
+                "printedName": "DataflowDiagramSDK.DataflowDiagramInput",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DataflowDiagramSDK0aB5InputV9timestamp7updatesACSd_SDySSypGtcfc",
+            "mangledName": "$s18DataflowDiagramSDK0aB5InputV9timestamp7updatesACSd_SDySSypGtcfc",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -1392,6 +1438,52 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timestamp:outputs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataflowDiagramOutput",
+                "printedName": "DataflowDiagramSDK.DataflowDiagramOutput",
+                "usr": "s:18DataflowDiagramSDK0aB6OutputV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DataflowDiagramSDK0aB6OutputV9timestamp7outputsACSd_SDySSypGtcfc",
+            "mangledName": "$s18DataflowDiagramSDK0aB6OutputV9timestamp7outputsACSd_SDySSypGtcfc",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -3300,84 +3392,84 @@
     {
       "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Dictionary",
-      "offset": 1221,
+      "offset": 1519,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Dictionary",
-      "offset": 1265,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
-      "kind": "Array",
-      "offset": 1305,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
-      "kind": "Array",
-      "offset": 1341,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
-      "kind": "Array",
-      "offset": 1381,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
-      "kind": "Dictionary",
-      "offset": 1478,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1524,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
-      "kind": "IntegerLiteral",
       "offset": 1563,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Array",
+      "offset": 1603,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Array",
+      "offset": 1639,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Array",
+      "offset": 1679,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Dictionary",
+      "offset": 1776,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1822,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "IntegerLiteral",
-      "offset": 1602,
+      "offset": 1861,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1900,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Array",
-      "offset": 1676,
+      "offset": 1974,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "BooleanLiteral",
-      "offset": 3089,
+      "offset": 3387,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "IntegerLiteral",
-      "offset": 26288,
+      "offset": 26586,
       "length": 1,
       "value": "0"
     }
