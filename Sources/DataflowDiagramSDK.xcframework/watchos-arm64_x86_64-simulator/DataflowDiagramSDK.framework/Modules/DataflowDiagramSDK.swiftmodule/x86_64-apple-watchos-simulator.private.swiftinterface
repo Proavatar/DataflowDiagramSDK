@@ -1,0 +1,94 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-watchos8.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DataflowDiagramSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import DataflowDiagramSDK
+import Foundation
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import simd
+@_hasMissingDesignatedInitializers public class Node {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ConstantNode : DataflowDiagramSDK.Node {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FunctionNode : DataflowDiagramSDK.Node {
+  @objc deinit
+}
+public class KeyPair {
+  public var privateKey: Swift.String
+  public var publicKey: Swift.String
+  public init(privateKey: Swift.String, publicKey: Swift.String)
+  @objc deinit
+}
+public func generateLicenseKey(privateKey: Swift.String, bundleId: Swift.String) -> Swift.String?
+public func validateLicenseKey(publicKey: Swift.String, licenseKey: Swift.String, bundleId: Swift.String) -> Swift.Bool
+public func generateNewAsymetricKeyPair() -> DataflowDiagramSDK.KeyPair?
+public func createLicenseFile(sdkName: Swift.String, licenseKey: Swift.String, bundleId: Swift.String)
+public func getLicenseInformation(sdkName: Swift.String, licenseKey: Swift.String, bundleId: Swift.String) -> Swift.String
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InputStreamNode : DataflowDiagramSDK.Node {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Subdiagram {
+  public var description: Swift.String
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VariableOutputNode : DataflowDiagramSDK.Node {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Container : DataflowDiagramSDK.Node {
+  @objc deinit
+}
+extension simd.simd_quatd {
+  public var description: Swift.String {
+    get
+  }
+  public init?(_ string: Swift.String)
+}
+extension Swift.SIMD3 where Scalar == Swift.Double {
+  public var description: Swift.String {
+    get
+  }
+  public init?(_ string: Swift.String)
+}
+extension Swift.Array where Element == Swift.Double {
+  public var description: Swift.String {
+    get
+  }
+  public init?(_ string: Swift.String)
+}
+public func getValueString(_ value: Any) -> Swift.String
+public func readDataflowDiagramInputs(from jsonLines: Swift.String) -> [DataflowDiagramSDK.DataflowDiagramInput]
+public func createJsonLines(from dataflowDiagramInputs: [DataflowDiagramSDK.DataflowDiagramInput]) -> Swift.String
+public struct DataflowDiagramInput {
+  public let timestamp: Foundation.TimeInterval
+  public var updates: [Swift.String : Any]
+}
+public struct DataflowDiagramOutput {
+  public let timestamp: Foundation.TimeInterval
+  public var outputs: [Swift.String : Any]
+}
+public protocol VariableOutputUpdatesReceiver : AnyObject {
+  func newVariableOutputUpdates(_ output: DataflowDiagramSDK.DataflowDiagramOutput)
+  func allUpdatesProcessed(_ outputs: [DataflowDiagramSDK.DataflowDiagramOutput])
+}
+public class DataflowDiagram {
+  public init(variableOutputUpdatesReceiver: DataflowDiagramSDK.VariableOutputUpdatesReceiver? = nil)
+  public func read(from jsonString: Swift.String, replace: Swift.Bool = true) -> Swift.Bool
+  public func getInputStreams() -> [Swift.String]
+  public func getVariableOutputs() -> [(label: Swift.String, typeString: Swift.String)]
+  public func getManualLines() -> [Swift.String]
+  public func createJSON() -> Swift.String
+  public func getConstants() -> [(label: Swift.String, value: Any)]
+  public func setConstant(label: Swift.String, newValue: Any)
+  public func updateInputStreams(_ diagramInput: DataflowDiagramSDK.DataflowDiagramInput)
+  public func reset()
+  public func setVariableOutputHidden(label: Swift.String, hidden: Swift.Bool)
+  public func setInputStreamForwarding(label: Swift.String, forwarding: Swift.Bool)
+  public func processAllUpdates(diagramInputs: [DataflowDiagramSDK.DataflowDiagramInput])
+  @objc deinit
+}

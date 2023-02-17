@@ -6,6 +6,6 @@ framework module DataflowDiagramSDK {
 }
 
 module DataflowDiagramSDK.Swift {
-    header "DataflowDiagramSDK-Swift.h"
-    requires objc
+  header "DataflowDiagramSDK-Swift.h"
+  requires objc
 }

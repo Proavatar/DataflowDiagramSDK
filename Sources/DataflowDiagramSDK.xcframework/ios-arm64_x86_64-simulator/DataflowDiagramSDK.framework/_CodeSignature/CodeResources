@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DataflowDiagramSDK-Swift.h</key>
 		<data>
-		wzKENlc5qKuFLL/BY/teQV9cmuE=
+		mOPXiiiNl5jSn1S6s41fAbFnYvQ=
 		</data>
 		<key>Headers/DataflowDiagramSDK.h</key>
 		<data>
@@ -14,35 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6XoutiJ3N7jrrKln+ij1n4Gmxps=
+		SmI90KRDHIgEVNjBcqz3mJ2Hc7U=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		oGLjYRtVh2Y42mKKUPRBns1H/fc=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		VM7lZGOv86417sYZhCtPrI0L++0=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		t/JKEtPyMbQAHGzbSnjEgJo7jYg=
+		qysEhMYsUiyhO69z1U4F1bXQMQI=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		g/RwZwwql6hsT3RZ1ZXAhbKYpgc=
+		VM7lZGOv86417sYZhCtPrI0L++0=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VVJLK+b3Sh/kJigZERdE6Zg7UjY=
+		G0U4LefFnDGu4SiY7irTTg2I5ro=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		oGLjYRtVh2Y42mKKUPRBns1H/fc=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		y2bTUU0STqaSAKhv4ygqT8NWAZY=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0A/AOi2et+9ZyiQJ/SPcLChWPdM=
+		cts8YngD18eomSEltKePCIsUnn0=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7G2eW+4Evne8XrP4EiZKQz7ka6c=
+		y2bTUU0STqaSAKhv4ygqT8NWAZY=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FDOmXXI+gguOF/kiQ3StuxhKIZo=
+		F/qLPEphWVsHmkcLQRiX2VMdX3I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		YGyLulLl6QOn9Zn8T4eltatI81Q=
+		7/OLlPV9E1tXaIo9dMaA1o/n6xY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cx0fP3KlxhxDTpTixEpdxbESNih11gdbIH1FT/BOsek=
+			nPPSrexJRKlFN/Mu8FksIf1QpLKfPMOUdCDbr0WA2wA=
 			</data>
 		</dict>
 		<key>Headers/DataflowDiagramSDK.h</key>
@@ -61,53 +77,81 @@
 			qiTYbsEOmtdYPtYlNd80zDA56BM+F6Rj5/8fobtXA/w=
 			</data>
 		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			To9WRMMe/gEtduGQ03+5mI0ALbc+fXkeYZ5FswQ5zk0=
+			</data>
+		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BBdyNUGRXg6K4J60Nwi7DS1y/rKgf+mw5Q6qOB9x9uw=
+			</data>
+		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zVOlETxN96HWnZuajZFZFD/zAblgrQNpziy8mjdAKmk=
+			28tCTcpMll4Ho7ebzKlT+h5LhrTHtNNUisJwTyC4PQM=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FxzLtyTUSAAIydiIS/R+G/9+QFG+F64M5/yyoPJ8KZg=
+			BBdyNUGRXg6K4J60Nwi7DS1y/rKgf+mw5Q6qOB9x9uw=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sRkypKvI25oaqYdoOvT4ynBB1MyVJQKoI/jdq3SgRPo=
+			yoNuImXHk1k73GXGIrBpivv2cihVM0bSQlB0sU8CoUg=
+			</data>
+		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			To9WRMMe/gEtduGQ03+5mI0ALbc+fXkeYZ5FswQ5zk0=
+			</data>
+		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u+gGhDbdtrCyDWPZZ4iagm04xZJXOeh7/FiyOa38r3s=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7svJjqZP+uvXwdkCI0Qs53Xq5xESflKqPEtie21HFl8=
+			gsENN5YM8NtBjTt9fPJihcaj2+9P31LFqFDlZikN8NI=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6iDgJjKZNzIpvtmPiJWC/kLFyu6WdsnxsF4j/s0Mubo=
+			u+gGhDbdtrCyDWPZZ4iagm04xZJXOeh7/FiyOa38r3s=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RSZNCq1jIHs0k5+cSIy1ARaD+ruPrZc2mXzhV+rB0hY=
+			nLWykKNC/puLqfKpZNKp2PihZmiKmBlMQjKqW1C5iww=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LuxMPvkHqpegMvve8aQMzITcyMfMm2xgDAP6XrYyyDA=
+			c/IleM9KpXY8Fhq0Mzzf/u6c/LzsPtEx5u5YX1yv1Zc=
 			</data>
 		</dict>
 	</dict>

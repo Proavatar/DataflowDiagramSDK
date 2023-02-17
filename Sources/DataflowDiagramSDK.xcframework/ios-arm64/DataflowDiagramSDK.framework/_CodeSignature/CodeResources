@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DataflowDiagramSDK-Swift.h</key>
 		<data>
-		iIb89dqbmNMXao13ABRJ7nXjbak=
+		wMg3b3Sp3egyUTGRfEN7v8Qnyz0=
 		</data>
 		<key>Headers/DataflowDiagramSDK.h</key>
 		<data>
@@ -14,23 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eeZtUPzbH6Dds3TNIoC3xKy3EcE=
+		kX1W0OcFWrzF4Vn8gvfq9OOkjgk=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		oGLjYRtVh2Y42mKKUPRBns1H/fc=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		6W4kUsIwPny1dy+PmAmMj1vaxn4=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		RmRfYZekunCZFQ504eCSJcvRuoY=
+		/Pf3F1/UGZiY86VYLCximj7y7ZA=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7+QjfPl7KrazFtM7DWfrTa0rK6U=
+		6W4kUsIwPny1dy+PmAmMj1vaxn4=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9wSO9wvM9t0CSQFEGmzecvGzC5w=
+		iy8o51pR1f8VFJvCwR3t+FGtP5g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		YGyLulLl6QOn9Zn8T4eltatI81Q=
+		7/OLlPV9E1tXaIo9dMaA1o/n6xY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aOwAIfwqKugjCZy3nz+t5M4xgfEj+7Ce3LWWCNDPjks=
+			Gmq68C1AgpecMrdme+bhF4qsw5zgjZ3WdCBHErlurm4=
 			</data>
 		</dict>
 		<key>Headers/DataflowDiagramSDK.h</key>
@@ -49,32 +57,46 @@
 			qiTYbsEOmtdYPtYlNd80zDA56BM+F6Rj5/8fobtXA/w=
 			</data>
 		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			To9WRMMe/gEtduGQ03+5mI0ALbc+fXkeYZ5FswQ5zk0=
+			</data>
+		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UoKSEtkLmsH+9zNQeoka4wQgkbw4kdNf+M1XOVl7ADY=
+			</data>
+		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aj17Q8a4bs2gQEYHPkIuKVF+ytK9qRA1fkCOO7tyqY0=
+			tQKuE88yyw1lZ0TY0HTU4lypKTnyDxNhpHAfhJEmqY8=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZXXA0B+Gaw6wSQYHbpfS3D0buvJXhvRhl3Q0b1nU2v0=
+			UoKSEtkLmsH+9zNQeoka4wQgkbw4kdNf+M1XOVl7ADY=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7eaXZ2Uy88CReGPDiJsrcZsy0n/D+XWCX0HObV9ynqc=
+			D1OWj61rmiH6mtz+xMeKpXLl63ZQY31oUSCFTDlFqhI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LuxMPvkHqpegMvve8aQMzITcyMfMm2xgDAP6XrYyyDA=
+			c/IleM9KpXY8Fhq0Mzzf/u6c/LzsPtEx5u5YX1yv1Zc=
 			</data>
 		</dict>
 	</dict>

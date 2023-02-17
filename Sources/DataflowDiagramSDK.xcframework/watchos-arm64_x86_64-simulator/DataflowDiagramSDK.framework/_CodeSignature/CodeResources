@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DataflowDiagramSDK-Swift.h</key>
 		<data>
-		wzKENlc5qKuFLL/BY/teQV9cmuE=
+		mOPXiiiNl5jSn1S6s41fAbFnYvQ=
 		</data>
 		<key>Headers/DataflowDiagramSDK.h</key>
 		<data>
@@ -14,35 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Vg1y5QhNzD/pMxMy9oTHcqNPLbY=
+		951ShU0kLXMP9xQHmcA7JX3SJWk=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
+		<data>
+		oGLjYRtVh2Y42mKKUPRBns1H/fc=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
+		<data>
+		SxvsUZY1Qx+a16bfbxmwHm2EP2Q=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		GpADaq88lAIKVnxIfOstQOhjHsk=
+		2TUQ6UqariTLyHEp0gd3sjYs7vg=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		xfueJ+osy4cgOUDOmAdLfovNjj8=
+		SxvsUZY1Qx+a16bfbxmwHm2EP2Q=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		V7MoGFpac5nOsxfXZinEepsXD44=
+		MtsSd0I2/PuAEV0BgcEAc+10XE4=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
+		<data>
+		oGLjYRtVh2Y42mKKUPRBns1H/fc=
+		</data>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
+		<data>
+		SBkxSCCvc0DOK0KSsJ0mPJVIfQ0=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		VIwsjbpqAunju5kH+KSv3WVSkZM=
+		GHFcmjwCGvtSQW5RaukPfaKK+VA=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		XOLhqzZmHdNVlJsnvXE0U58HjH8=
+		SBkxSCCvc0DOK0KSsJ0mPJVIfQ0=
 		</data>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		VRZBNyi2daTFNYr8aF6Xp52ivSA=
+		0Uwa0DsZcitAyG2rq2OEZKZcbK8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		YGyLulLl6QOn9Zn8T4eltatI81Q=
+		7/OLlPV9E1tXaIo9dMaA1o/n6xY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cx0fP3KlxhxDTpTixEpdxbESNih11gdbIH1FT/BOsek=
+			nPPSrexJRKlFN/Mu8FksIf1QpLKfPMOUdCDbr0WA2wA=
 			</data>
 		</dict>
 		<key>Headers/DataflowDiagramSDK.h</key>
@@ -61,53 +77,81 @@
 			qiTYbsEOmtdYPtYlNd80zDA56BM+F6Rj5/8fobtXA/w=
 			</data>
 		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			To9WRMMe/gEtduGQ03+5mI0ALbc+fXkeYZ5FswQ5zk0=
+			</data>
+		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			abul4DT3v0RwE9XOKy6fq8elmcLcti8+r4xmaU+eG6s=
+			</data>
+		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n6ZhFr3ZV/v6YGYH7xrF1DUhzHS4nLsjkG8L9lB/qDY=
+			XSmrdJ2AUbsEiInUWfkdbI6IwSTENCxjJSjyMpKaA8U=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GM/znJypvT8Z7DIlNRVc4Ur3I3sKGIwGbmGJ0QtUX9U=
+			abul4DT3v0RwE9XOKy6fq8elmcLcti8+r4xmaU+eG6s=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cPw96m6e3O/bwgIptIXFaiTVXqOQThitU7x+fvXNmGk=
+			i2MU8gRNo/8aFwcfUTOiYmDBSZ4a0zv7kCK10dYAzYg=
+			</data>
+		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			To9WRMMe/gEtduGQ03+5mI0ALbc+fXkeYZ5FswQ5zk0=
+			</data>
+		</dict>
+		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6zissT9rzfMa69V5N7W+Qc2F2HWm22PG5Swm4PfiqXs=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			evoVlX+FxjWF81u0/bB7/zi7qGNGuoYdyYQvFxwOFKc=
+			KyokPwxftgqmaZsdrignnJDe9mRTIAsLlqB3xx98JhQ=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eeaKa24NP8MPBOFANFjcnWJR7w436vMKWoILzac5aSQ=
+			6zissT9rzfMa69V5N7W+Qc2F2HWm22PG5Swm4PfiqXs=
 			</data>
 		</dict>
 		<key>Modules/DataflowDiagramSDK.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RzIukP9TGp20Euddf7sLy2Q5wdkZwgEVulmV/IvcKbk=
+			yR95Onv8A2jQQL7X7mlvVNNEZP6rBgTF1p7dI8UfX4s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LuxMPvkHqpegMvve8aQMzITcyMfMm2xgDAP6XrYyyDA=
+			c/IleM9KpXY8Fhq0Mzzf/u6c/LzsPtEx5u5YX1yv1Zc=
 			</data>
 		</dict>
 	</dict>

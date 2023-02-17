@@ -1,0 +1,3385 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Node",
+        "printedName": "Node",
+        "declKind": "Class",
+        "usr": "s:18DataflowDiagramSDK4NodeC",
+        "mangledName": "$s18DataflowDiagramSDK4NodeC",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConstantNode",
+        "printedName": "ConstantNode",
+        "declKind": "Class",
+        "usr": "s:18DataflowDiagramSDK12ConstantNodeC",
+        "mangledName": "$s18DataflowDiagramSDK12ConstantNodeC",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:18DataflowDiagramSDK4NodeC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "DataflowDiagramSDK.Node"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FunctionNode",
+        "printedName": "FunctionNode",
+        "declKind": "Class",
+        "usr": "s:18DataflowDiagramSDK12FunctionNodeC",
+        "mangledName": "$s18DataflowDiagramSDK12FunctionNodeC",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:18DataflowDiagramSDK4NodeC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "DataflowDiagramSDK.Node"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyPair",
+        "printedName": "KeyPair",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "privateKey",
+            "printedName": "privateKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DataflowDiagramSDK7KeyPairC07privateD0SSvp",
+            "mangledName": "$s18DataflowDiagramSDK7KeyPairC07privateD0SSvp",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK7KeyPairC07privateD0SSvg",
+                "mangledName": "$s18DataflowDiagramSDK7KeyPairC07privateD0SSvg",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK7KeyPairC07privateD0SSvs",
+                "mangledName": "$s18DataflowDiagramSDK7KeyPairC07privateD0SSvs",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK7KeyPairC07privateD0SSvM",
+                "mangledName": "$s18DataflowDiagramSDK7KeyPairC07privateD0SSvM",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "publicKey",
+            "printedName": "publicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DataflowDiagramSDK7KeyPairC06publicD0SSvp",
+            "mangledName": "$s18DataflowDiagramSDK7KeyPairC06publicD0SSvp",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK7KeyPairC06publicD0SSvg",
+                "mangledName": "$s18DataflowDiagramSDK7KeyPairC06publicD0SSvg",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK7KeyPairC06publicD0SSvs",
+                "mangledName": "$s18DataflowDiagramSDK7KeyPairC06publicD0SSvs",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK7KeyPairC06publicD0SSvM",
+                "mangledName": "$s18DataflowDiagramSDK7KeyPairC06publicD0SSvM",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(privateKey:publicKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPair",
+                "printedName": "DataflowDiagramSDK.KeyPair",
+                "usr": "s:18DataflowDiagramSDK7KeyPairC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DataflowDiagramSDK7KeyPairC07privateD006publicD0ACSS_SStcfc",
+            "mangledName": "$s18DataflowDiagramSDK7KeyPairC07privateD006publicD0ACSS_SStcfc",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18DataflowDiagramSDK7KeyPairC",
+        "mangledName": "$s18DataflowDiagramSDK7KeyPairC",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "generateLicenseKey",
+        "printedName": "generateLicenseKey(privateKey:bundleId:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DataflowDiagramSDK18generateLicenseKey07privateF08bundleIdSSSgSS_SStF",
+        "mangledName": "$s18DataflowDiagramSDK18generateLicenseKey07privateF08bundleIdSSSgSS_SStF",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "validateLicenseKey",
+        "printedName": "validateLicenseKey(publicKey:licenseKey:bundleId:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DataflowDiagramSDK18validateLicenseKey06publicF007licenseF08bundleIdSbSS_S2StF",
+        "mangledName": "$s18DataflowDiagramSDK18validateLicenseKey06publicF007licenseF08bundleIdSbSS_S2StF",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "generateNewAsymetricKeyPair",
+        "printedName": "generateNewAsymetricKeyPair()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "DataflowDiagramSDK.KeyPair?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPair",
+                "printedName": "DataflowDiagramSDK.KeyPair",
+                "usr": "s:18DataflowDiagramSDK7KeyPairC"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DataflowDiagramSDK27generateNewAsymetricKeyPairAA0gH0CSgyF",
+        "mangledName": "$s18DataflowDiagramSDK27generateNewAsymetricKeyPairAA0gH0CSgyF",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "createLicenseFile",
+        "printedName": "createLicenseFile(sdkName:licenseKey:bundleId:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DataflowDiagramSDK17createLicenseFile7sdkName10licenseKey8bundleIdySS_S2StF",
+        "mangledName": "$s18DataflowDiagramSDK17createLicenseFile7sdkName10licenseKey8bundleIdySS_S2StF",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getLicenseInformation",
+        "printedName": "getLicenseInformation(sdkName:licenseKey:bundleId:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DataflowDiagramSDK21getLicenseInformation7sdkName10licenseKey8bundleIdS2S_S2StF",
+        "mangledName": "$s18DataflowDiagramSDK21getLicenseInformation7sdkName10licenseKey8bundleIdS2S_S2StF",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InputStreamNode",
+        "printedName": "InputStreamNode",
+        "declKind": "Class",
+        "usr": "s:18DataflowDiagramSDK15InputStreamNodeC",
+        "mangledName": "$s18DataflowDiagramSDK15InputStreamNodeC",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:18DataflowDiagramSDK4NodeC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "DataflowDiagramSDK.Node"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Subdiagram",
+        "printedName": "Subdiagram",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DataflowDiagramSDK10SubdiagramC11descriptionSSvp",
+            "mangledName": "$s18DataflowDiagramSDK10SubdiagramC11descriptionSSvp",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK10SubdiagramC11descriptionSSvg",
+                "mangledName": "$s18DataflowDiagramSDK10SubdiagramC11descriptionSSvg",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK10SubdiagramC11descriptionSSvs",
+                "mangledName": "$s18DataflowDiagramSDK10SubdiagramC11descriptionSSvs",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK10SubdiagramC11descriptionSSvM",
+                "mangledName": "$s18DataflowDiagramSDK10SubdiagramC11descriptionSSvM",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18DataflowDiagramSDK10SubdiagramC",
+        "mangledName": "$s18DataflowDiagramSDK10SubdiagramC",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VariableOutputNode",
+        "printedName": "VariableOutputNode",
+        "declKind": "Class",
+        "usr": "s:18DataflowDiagramSDK18VariableOutputNodeC",
+        "mangledName": "$s18DataflowDiagramSDK18VariableOutputNodeC",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:18DataflowDiagramSDK4NodeC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "DataflowDiagramSDK.Node"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Container",
+        "printedName": "Container",
+        "declKind": "Class",
+        "usr": "s:18DataflowDiagramSDK9ContainerC",
+        "mangledName": "$s18DataflowDiagramSDK9ContainerC",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:18DataflowDiagramSDK4NodeC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "DataflowDiagramSDK.Node"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "Function",
+        "name": "getValueString",
+        "printedName": "getValueString(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DataflowDiagramSDK14getValueStringySSypF",
+        "mangledName": "$s18DataflowDiagramSDK14getValueStringySSypF",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "readDataflowDiagramInputs",
+        "printedName": "readDataflowDiagramInputs(from:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[DataflowDiagramSDK.DataflowDiagramInput]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataflowDiagramInput",
+                "printedName": "DataflowDiagramSDK.DataflowDiagramInput",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DataflowDiagramSDK04readaB6Inputs4fromSayAA0aB5InputVGSS_tF",
+        "mangledName": "$s18DataflowDiagramSDK04readaB6Inputs4fromSayAA0aB5InputVGSS_tF",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "createJsonLines",
+        "printedName": "createJsonLines(from:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[DataflowDiagramSDK.DataflowDiagramInput]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataflowDiagramInput",
+                "printedName": "DataflowDiagramSDK.DataflowDiagramInput",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DataflowDiagramSDK15createJsonLines4fromSSSayAA0aB5InputVG_tF",
+        "mangledName": "$s18DataflowDiagramSDK15createJsonLines4fromSSSayAA0aB5InputVG_tF",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataflowDiagramInput",
+        "printedName": "DataflowDiagramInput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DataflowDiagramSDK0aB5InputV9timestampSdvp",
+            "mangledName": "$s18DataflowDiagramSDK0aB5InputV9timestampSdvp",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV9timestampSdvg",
+                "mangledName": "$s18DataflowDiagramSDK0aB5InputV9timestampSdvg",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "updates",
+            "printedName": "updates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DataflowDiagramSDK0aB5InputV7updatesSDySSypGvp",
+            "mangledName": "$s18DataflowDiagramSDK0aB5InputV7updatesSDySSypGvp",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV7updatesSDySSypGvg",
+                "mangledName": "$s18DataflowDiagramSDK0aB5InputV7updatesSDySSypGvg",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV7updatesSDySSypGvs",
+                "mangledName": "$s18DataflowDiagramSDK0aB5InputV7updatesSDySSypGvs",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV7updatesSDySSypGvM",
+                "mangledName": "$s18DataflowDiagramSDK0aB5InputV7updatesSDySSypGvM",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18DataflowDiagramSDK0aB5InputV",
+        "mangledName": "$s18DataflowDiagramSDK0aB5InputV",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataflowDiagramOutput",
+        "printedName": "DataflowDiagramOutput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DataflowDiagramSDK0aB6OutputV9timestampSdvp",
+            "mangledName": "$s18DataflowDiagramSDK0aB6OutputV9timestampSdvp",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB6OutputV9timestampSdvg",
+                "mangledName": "$s18DataflowDiagramSDK0aB6OutputV9timestampSdvg",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outputs",
+            "printedName": "outputs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DataflowDiagramSDK0aB6OutputV7outputsSDySSypGvp",
+            "mangledName": "$s18DataflowDiagramSDK0aB6OutputV7outputsSDySSypGvp",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB6OutputV7outputsSDySSypGvg",
+                "mangledName": "$s18DataflowDiagramSDK0aB6OutputV7outputsSDySSypGvg",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB6OutputV7outputsSDySSypGvs",
+                "mangledName": "$s18DataflowDiagramSDK0aB6OutputV7outputsSDySSypGvs",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB6OutputV7outputsSDySSypGvM",
+                "mangledName": "$s18DataflowDiagramSDK0aB6OutputV7outputsSDySSypGvM",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18DataflowDiagramSDK0aB6OutputV",
+        "mangledName": "$s18DataflowDiagramSDK0aB6OutputV",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VariableOutputUpdatesReceiver",
+        "printedName": "VariableOutputUpdatesReceiver",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "newVariableOutputUpdates",
+            "printedName": "newVariableOutputUpdates(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DataflowDiagramOutput",
+                "printedName": "DataflowDiagramSDK.DataflowDiagramOutput",
+                "usr": "s:18DataflowDiagramSDK0aB6OutputV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK29VariableOutputUpdatesReceiverP03newdeF0yyAA0abE0VF",
+            "mangledName": "$s18DataflowDiagramSDK29VariableOutputUpdatesReceiverP03newdeF0yyAA0abE0VF",
+            "moduleName": "DataflowDiagramSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DataflowDiagramSDK.VariableOutputUpdatesReceiver>",
+            "sugared_genericSig": "<Self where Self : DataflowDiagramSDK.VariableOutputUpdatesReceiver>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allUpdatesProcessed",
+            "printedName": "allUpdatesProcessed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DataflowDiagramSDK.DataflowDiagramOutput]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataflowDiagramOutput",
+                    "printedName": "DataflowDiagramSDK.DataflowDiagramOutput",
+                    "usr": "s:18DataflowDiagramSDK0aB6OutputV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK29VariableOutputUpdatesReceiverP03allF9ProcessedyySayAA0abE0VGF",
+            "mangledName": "$s18DataflowDiagramSDK29VariableOutputUpdatesReceiverP03allF9ProcessedyySayAA0abE0VGF",
+            "moduleName": "DataflowDiagramSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DataflowDiagramSDK.VariableOutputUpdatesReceiver>",
+            "sugared_genericSig": "<Self where Self : DataflowDiagramSDK.VariableOutputUpdatesReceiver>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18DataflowDiagramSDK29VariableOutputUpdatesReceiverP",
+        "mangledName": "$s18DataflowDiagramSDK29VariableOutputUpdatesReceiverP",
+        "moduleName": "DataflowDiagramSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataflowDiagram",
+        "printedName": "DataflowDiagram",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(variableOutputUpdatesReceiver:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataflowDiagram",
+                "printedName": "DataflowDiagramSDK.DataflowDiagram",
+                "usr": "s:18DataflowDiagramSDK0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DataflowDiagramSDK.VariableOutputUpdatesReceiver?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VariableOutputUpdatesReceiver",
+                    "printedName": "DataflowDiagramSDK.VariableOutputUpdatesReceiver",
+                    "usr": "s:18DataflowDiagramSDK29VariableOutputUpdatesReceiverP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DataflowDiagramSDK0aB0C29variableOutputUpdatesReceiverAcA08VariableefG0_pSg_tcfc",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C29variableOutputUpdatesReceiverAcA08VariableefG0_pSg_tcfc",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read(from:replace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C4read4from7replaceSbSS_SbtF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C4read4from7replaceSbSS_SbtF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInputStreams",
+            "printedName": "getInputStreams()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C15getInputStreamsSaySSGyF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C15getInputStreamsSaySSGyF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getVariableOutputs",
+            "printedName": "getVariableOutputs()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(label: Swift.String, typeString: Swift.String)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(label: Swift.String, typeString: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C18getVariableOutputsSaySS5label_SS10typeStringtGyF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C18getVariableOutputsSaySS5label_SS10typeStringtGyF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getManualLines",
+            "printedName": "getManualLines()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C14getManualLinesSaySSGyF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C14getManualLinesSaySSGyF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createJSON",
+            "printedName": "createJSON()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C10createJSONSSyF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C10createJSONSSyF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConstants",
+            "printedName": "getConstants()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(label: Swift.String, value: Any)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(label: Swift.String, value: Any)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C12getConstantsSaySS5label_yp5valuetGyF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C12getConstantsSaySS5label_yp5valuetGyF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setConstant",
+            "printedName": "setConstant(label:newValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C11setConstant5label8newValueySS_yptF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C11setConstant5label8newValueySS_yptF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateInputStreams",
+            "printedName": "updateInputStreams(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DataflowDiagramInput",
+                "printedName": "DataflowDiagramSDK.DataflowDiagramInput",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C18updateInputStreamsyyAA0abE0VF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C18updateInputStreamsyyAA0abE0VF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C5resetyyF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C5resetyyF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVariableOutputHidden",
+            "printedName": "setVariableOutputHidden(label:hidden:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C23setVariableOutputHidden5label6hiddenySS_SbtF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C23setVariableOutputHidden5label6hiddenySS_SbtF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInputStreamForwarding",
+            "printedName": "setInputStreamForwarding(label:forwarding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C24setInputStreamForwarding5label10forwardingySS_SbtF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C24setInputStreamForwarding5label10forwardingySS_SbtF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processAllUpdates",
+            "printedName": "processAllUpdates(diagramInputs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DataflowDiagramSDK.DataflowDiagramInput]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataflowDiagramInput",
+                    "printedName": "DataflowDiagramSDK.DataflowDiagramInput",
+                    "usr": "s:18DataflowDiagramSDK0aB5InputV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C17processAllUpdates13diagramInputsySayAA0aB5InputVG_tF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C17processAllUpdates13diagramInputsySayAA0aB5InputVG_tF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18DataflowDiagramSDK0aB0C",
+        "mangledName": "$s18DataflowDiagramSDK0aB0C",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "simd_quatd",
+        "printedName": "simd_quatd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So10simd_quatda18DataflowDiagramSDKE11descriptionSSvp",
+            "mangledName": "$sSo10simd_quatda18DataflowDiagramSDKE11descriptionSSvp",
+            "moduleName": "DataflowDiagramSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So10simd_quatda18DataflowDiagramSDKE11descriptionSSvg",
+                "mangledName": "$sSo10simd_quatda18DataflowDiagramSDKE11descriptionSSvg",
+                "moduleName": "DataflowDiagramSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "simd.simd_quatd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "simd_quatd",
+                    "printedName": "simd.simd_quatd",
+                    "usr": "c:@SA@simd_quatd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So10simd_quatda18DataflowDiagramSDKEyABSgSScfc",
+            "mangledName": "$sSo10simd_quatda18DataflowDiagramSDKEyABSgSScfc",
+            "moduleName": "DataflowDiagramSDK",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@SA@simd_quatd",
+        "moduleName": "simd",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SIMD3",
+        "printedName": "SIMD3",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:s5SIMD3V18DataflowDiagramSDKSdRszrlE11descriptionSSvp",
+            "mangledName": "$ss5SIMD3V18DataflowDiagramSDKSdRszrlE11descriptionSSvp",
+            "moduleName": "DataflowDiagramSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:s5SIMD3V18DataflowDiagramSDKSdRszrlE11descriptionSSvg",
+                "mangledName": "$ss5SIMD3V18DataflowDiagramSDKSdRszrlE11descriptionSSvg",
+                "moduleName": "DataflowDiagramSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == Swift.Double>",
+                "sugared_genericSig": "<Scalar where Scalar == Swift.Double>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.SIMD3<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD3",
+                    "printedName": "Swift.SIMD3<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s5SIMD3V"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:s5SIMD3V18DataflowDiagramSDKSdRszrlEyABySdGSgSScfc",
+            "mangledName": "$ss5SIMD3V18DataflowDiagramSDKSdRszrlEyABySdGSgSScfc",
+            "moduleName": "DataflowDiagramSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Double>",
+            "sugared_genericSig": "<Scalar where Scalar == Swift.Double>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s5SIMD3V",
+        "mangledName": "$ss5SIMD3V",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.SIMDScalar>",
+        "sugared_genericSig": "<Scalar where Scalar : Swift.SIMDScalar>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SIMD",
+            "printedName": "SIMD",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "MaskStorage",
+                "printedName": "MaskStorage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD3",
+                    "printedName": "Swift.SIMD3<τ_0_0.SIMDMaskScalar>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.SIMDMaskScalar"
+                      }
+                    ],
+                    "usr": "s:s5SIMD3V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s4SIMDP",
+            "mangledName": "$ss4SIMDP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDStorage",
+            "printedName": "SIMDStorage",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Scalar",
+                "printedName": "Scalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s11SIMDStorageP",
+            "mangledName": "$ss11SIMDStorageP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Array",
+        "printedName": "Array",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa18DataflowDiagramSDKSdRszlE11descriptionSSvp",
+            "mangledName": "$sSa18DataflowDiagramSDKSdRszlE11descriptionSSvp",
+            "moduleName": "DataflowDiagramSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa18DataflowDiagramSDKSdRszlE11descriptionSSvg",
+                "mangledName": "$sSa18DataflowDiagramSDKSdRszlE11descriptionSSvg",
+                "moduleName": "DataflowDiagramSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == Swift.Double>",
+                "sugared_genericSig": "<Element where Element == Swift.Double>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[τ_0_0]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:Sa18DataflowDiagramSDKSdRszlEySaySdGSgSScfc",
+            "mangledName": "$sSa18DataflowDiagramSDKSdRszlEySaySdGSgSScfc",
+            "moduleName": "DataflowDiagramSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Double>",
+            "sugared_genericSig": "<Element where Element == Swift.Double>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sa",
+        "mangledName": "$sSa",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_DestructorSafeContainer",
+            "printedName": "_DestructorSafeContainer",
+            "usr": "s:s24_DestructorSafeContainerP",
+            "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ArrayProtocol",
+            "printedName": "_ArrayProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Buffer",
+                "printedName": "_Buffer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ArrayBuffer",
+                    "printedName": "Swift._ArrayBuffer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s12_ArrayBufferV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s14_ArrayProtocolP",
+            "mangledName": "$ss14_ArrayProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/GenericFunctions.swift",
+      "kind": "Array",
+      "offset": 14872,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/GenericFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17883,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1288,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/JsonOutput.swift",
+      "kind": "Array",
+      "offset": 226,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 215,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 249,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 4,
+      "value": "\"%g\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 762,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 797,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "IntegerLiteral",
+      "offset": 834,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 866,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 900,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1005,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1120,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5706,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13202,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16127,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17683,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20626,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25239,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34372,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Subdiagram.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Subdiagram.swift",
+      "kind": "Array",
+      "offset": 206,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "Array",
+      "offset": 16576,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "FloatLiteral",
+      "offset": 3966,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "FloatLiteral",
+      "offset": 8140,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "Array",
+      "offset": 9847,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "FloatLiteral",
+      "offset": 9876,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "Array",
+      "offset": 11858,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16114,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17873,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17912,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "kind": "FloatLiteral",
+      "offset": 20019,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/VariableOutputNodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 214,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/VariableOutputNodes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 246,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/VariableOutputNodes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Licensing\/PublicKey.swift",
+      "kind": "StringLiteral",
+      "offset": 16,
+      "length": 362,
+      "value": "\"MIIBCgKCAQEAshPQ5rlGFkeWV2xvSLupfbBv+DfPSB0d6MVujhYjww6orKI4CM6v3\/Hd\/mW9ljRzws7HWGdCVOQzrREiNFq1bRTtw9Ejtl6po81RZfX82JjQbl0c5oAX1dDGMhx81jc3Ca\/rhypfHt4iSgWFeoQD35rQQgFRg+ls7MCckSYc0WTAZmM3iQfGH\/hBmFq\/GN9EAy7Oh0wHu\/8nEVFSGAONbLrfXIyjzmm6xGugzGXOGe9yhRA\/BN+6mFu2ugD3lwk\/PVoPk+yTVNP98WEZ8LsFVuU3wqoLskpRRic86N1PhVmJM8BDvNCtKLeM16FnjzpxJcGrSWPFf8pj91PvFEVMewIDAQAB\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Licensing\/PublicKey.swift",
+      "kind": "BooleanLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 240,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "Array",
+      "offset": 281,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "Array",
+      "offset": 26437,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Dictionary",
+      "offset": 1221,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Dictionary",
+      "offset": 1265,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Array",
+      "offset": 1305,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Array",
+      "offset": 1341,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Array",
+      "offset": 1381,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Dictionary",
+      "offset": 1478,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1524,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1563,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1602,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "Array",
+      "offset": 1676,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3089,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26288,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
