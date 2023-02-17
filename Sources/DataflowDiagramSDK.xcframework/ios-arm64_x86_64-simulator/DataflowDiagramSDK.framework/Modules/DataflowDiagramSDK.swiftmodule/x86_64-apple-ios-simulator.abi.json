@@ -1062,7 +1062,6 @@
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -1083,6 +1082,48 @@
                 "moduleName": "DataflowDiagramSDK",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV9timestampSdvs",
+                "mangledName": "$s18DataflowDiagramSDK0aB5InputV9timestampSdvs",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB5InputV9timestampSdvM",
+                "mangledName": "$s18DataflowDiagramSDK0aB5InputV9timestampSdvM",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -1291,7 +1332,6 @@
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -1312,6 +1352,48 @@
                 "moduleName": "DataflowDiagramSDK",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB6OutputV9timestampSdvs",
+                "mangledName": "$s18DataflowDiagramSDK0aB6OutputV9timestampSdvs",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DataflowDiagramSDK0aB6OutputV9timestampSdvM",
+                "mangledName": "$s18DataflowDiagramSDK0aB6OutputV9timestampSdvM",
+                "moduleName": "DataflowDiagramSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
