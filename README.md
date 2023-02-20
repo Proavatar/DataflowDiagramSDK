@@ -102,6 +102,16 @@ public DataflowDiagram( variableOutputUpdatesReceiver: VariableOutputUpdatesRece
 ```
 This creates an empty dataflow diagram which needs to be filled by supplying the JSON representation of the diagram as described in the next section.
 
+### License activation
+By default, without a license the SDK can be used with a maximum of two input streams. To remove this limitation, a commercial license is required.
+To activate the license, the `activateLicense()` method must be called.
+
+```swift
+func activateLicense( licenseKey: String, bundleId: String )
+```
+
+To obtain a license, please contact sales@proavatar.io.
+
 ### Fill the diagram
 The contents of a dataflow diagram is specified by a JSON string which can be stored in a standard text file or retrieved via an API to an online cloud platform. As such, once the application retrieves the JSON string, it can be used to fill the dataflow diagram by calling the `read()` method.
 ```swift
