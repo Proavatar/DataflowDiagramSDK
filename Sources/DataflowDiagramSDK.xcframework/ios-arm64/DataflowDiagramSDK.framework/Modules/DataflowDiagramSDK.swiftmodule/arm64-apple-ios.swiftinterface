@@ -80,6 +80,7 @@ public protocol VariableOutputUpdatesReceiver : AnyObject {
 }
 public class DataflowDiagram {
   public init(variableOutputUpdatesReceiver: DataflowDiagramSDK.VariableOutputUpdatesReceiver? = nil)
+  public func activateLicense(licenseKey: Swift.String, bundleId: Swift.String)
   public func read(from jsonString: Swift.String, replace: Swift.Bool = true) -> Swift.Bool
   public func getInputStreams() -> [Swift.String]
   public func getVariableOutputs() -> [(label: Swift.String, typeString: Swift.String)]

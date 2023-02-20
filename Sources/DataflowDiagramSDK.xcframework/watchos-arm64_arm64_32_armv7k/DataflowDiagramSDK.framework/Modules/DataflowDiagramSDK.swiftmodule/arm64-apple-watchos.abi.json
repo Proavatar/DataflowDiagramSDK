@@ -1700,6 +1700,39 @@
           },
           {
             "kind": "Function",
+            "name": "activateLicense",
+            "printedName": "activateLicense(licenseKey:bundleId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DataflowDiagramSDK0aB0C15activateLicense10licenseKey8bundleIdySS_SStF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C15activateLicense10licenseKey8bundleIdySS_SStF",
+            "moduleName": "DataflowDiagramSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "read",
             "printedName": "read(from:replace:)",
             "children": [
@@ -3164,394 +3197,394 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/GenericFunctions.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/GenericFunctions.swift",
       "kind": "Array",
       "offset": 14872,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/GenericFunctions.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/GenericFunctions.swift",
       "kind": "IntegerLiteral",
       "offset": 17883,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1288,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/JsonOutput.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/JsonOutput.swift",
       "kind": "Array",
       "offset": 226,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
       "offset": 215,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
       "offset": 249,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 4,
       "value": "\"%g\""
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 762,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 797,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "IntegerLiteral",
       "offset": 834,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 866,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 900,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 1005,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 1120,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 5706,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 9601,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 13202,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 16127,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 17683,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 20626,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 25239,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedValues.swift",
       "kind": "BooleanLiteral",
       "offset": 34372,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Subdiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Subdiagram.swift",
       "kind": "StringLiteral",
       "offset": 178,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Subdiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Subdiagram.swift",
       "kind": "Array",
       "offset": 206,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
       "kind": "Array",
       "offset": 16576,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "FloatLiteral",
       "offset": 3966,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "FloatLiteral",
       "offset": 8140,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "IntegerLiteral",
       "offset": 8166,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "Array",
       "offset": 9847,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "FloatLiteral",
       "offset": 9876,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "Array",
       "offset": 11858,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "IntegerLiteral",
       "offset": 16114,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "IntegerLiteral",
       "offset": 17873,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "IntegerLiteral",
       "offset": 17912,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/FloatOperations.swift",
       "kind": "FloatLiteral",
       "offset": 20019,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/VariableOutputNodes.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/VariableOutputNodes.swift",
       "kind": "IntegerLiteral",
       "offset": 214,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/VariableOutputNodes.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/VariableOutputNodes.swift",
       "kind": "BooleanLiteral",
       "offset": 246,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/VariableOutputNodes.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/VariableOutputNodes.swift",
       "kind": "BooleanLiteral",
       "offset": 276,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Licensing\/PublicKey.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Licensing\/PublicKey.swift",
       "kind": "StringLiteral",
       "offset": 16,
       "length": 362,
       "value": "\"MIIBCgKCAQEAshPQ5rlGFkeWV2xvSLupfbBv+DfPSB0d6MVujhYjww6orKI4CM6v3\/Hd\/mW9ljRzws7HWGdCVOQzrREiNFq1bRTtw9Ejtl6po81RZfX82JjQbl0c5oAX1dDGMhx81jc3Ca\/rhypfHt4iSgWFeoQD35rQQgFRg+ls7MCckSYc0WTAZmM3iQfGH\/hBmFq\/GN9EAy7Oh0wHu\/8nEVFSGAONbLrfXIyjzmm6xGugzGXOGe9yhRA\/BN+6mFu2ugD3lwk\/PVoPk+yTVNP98WEZ8LsFVuU3wqoLskpRRic86N1PhVmJM8BDvNCtKLeM16FnjzpxJcGrSWPFf8pj91PvFEVMewIDAQAB\""
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Licensing\/PublicKey.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Licensing\/PublicKey.swift",
       "kind": "BooleanLiteral",
       "offset": 408,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
       "kind": "BooleanLiteral",
       "offset": 240,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
       "kind": "Array",
       "offset": 281,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
       "kind": "Array",
       "offset": 26437,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Dictionary",
       "offset": 1519,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Dictionary",
       "offset": 1563,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Array",
       "offset": 1603,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Array",
       "offset": 1639,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Array",
       "offset": 1679,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Dictionary",
       "offset": 1776,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "IntegerLiteral",
       "offset": 1822,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "IntegerLiteral",
       "offset": 1861,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "IntegerLiteral",
       "offset": 1900,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Array",
       "offset": 1974,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "BooleanLiteral",
-      "offset": 3387,
+      "offset": 3943,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/fred\/Repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "IntegerLiteral",
-      "offset": 26586,
+      "offset": 27384,
       "length": 1,
       "value": "0"
     }
