@@ -2,7 +2,7 @@
 
 This following describes the software development kit (SDK) enabling iOS applications to use dataflow diagrams that implement specific algorithms to process timestamped sensor data as for example generated a motion capture system (see our [Motion Capture SDK](https://github.com/Proavatar/MotionCaptureSDK.git)) and calculate specific output values.
 
->A detailed explanation of the dataflow programming method, can be found [here](https://docs.google.com/document/d/e/2PACX-1vSGnVV0YPaOxSuKIczDGwvmcoqDHbcPV-Mf0b9LYCZp3RyrzjbCdJzejdOdkeFkVessgdbECEhqbNgu/pub).
+>A detailed explanation of the dataflow programming method, can be found [here](https://proavatar.github.io/DataflowDiagramSDK/).
 
 The SDK is offered as a Swift Package that implements the following functionality:
 * [Create a new dataflow diagram and fill it with a specified algorithm](#creating-a-dataflow-diagram).
