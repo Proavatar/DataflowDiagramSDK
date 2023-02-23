@@ -49,16 +49,16 @@ The architecture of an algorithm is given in the figure below.
 For the dataflow diagram I/O two structures are defined:
 
 ```swift
-public struct DataflowDiagramInput
+struct DataflowDiagramInput
 {
-    public let timestamp : TimeInterval
-    public var updates   : [String:Any]
+    let timestamp : TimeInterval
+    var updates   : [String:Any]
 }
 
-public struct DataflowDiagramOutput
+struct DataflowDiagramOutput
 {
-    public let timestamp : TimeInterval
-    public var outputs   : [String:Any]
+    let timestamp : TimeInterval
+    var outputs   : [String:Any]
 }
 ```
 
@@ -88,7 +88,7 @@ Before a dataflow diagram can be used to run a specific algorithm, an instance o
 The dataflow diagram will indicate the updates of the variable outputs using the `VariableOutputUpdatesReceiver` protocol which has two functions.
 
 ```swift
-public protocol VariableOutputUpdatesReceiver : AnyObject
+protocol VariableOutputUpdatesReceiver : AnyObject
 {
     func newVariableOutputUpdates(_ output: DataflowDiagramOutput )
     func allUpdatesProcessed(_ outputs: [DataflowDiagramOutput] )
@@ -100,7 +100,7 @@ As such, any object in the application that is going to process these updates ne
 ### Instantiation
 To instantiate a dataflow diagram the initialization method takes the reference to the object in the application that complies with the `VariableOutputUpdatesReceiver` protocol.
 ```swift
-public DataflowDiagram( variableOutputUpdatesReceiver: VariableOutputUpdatesReceiver? = nil )
+DataflowDiagram( variableOutputUpdatesReceiver: VariableOutputUpdatesReceiver? = nil )
 ```
 This creates an empty dataflow diagram which needs to be filled by supplying the JSON representation of the diagram as described in the next section.
 
@@ -128,9 +128,9 @@ When a diagram is filled (see “[Fill the diagram](#fill-the-diagram)”), it c
 ### Used input streams
 Which input streams the diagram uses is important information for the application to know which information must be supplied. To retrieve the used input streams the `getInputStreams()` method of the dataflow diagram must be called.
 ```swift
-public func getInputStreams() -> [String]
+func getInputStreams() -> [(label:String, typeString:String)]
 ```
-The output of the function is an array of strings containing the descriptions of the input streams as described in “[Dataflow diagram I/O](#dataflow-diagram-io)” (e.g. “Torso”, “Neck”, “Left elbow”, et cetera).
+The output of the function is an array of tuples containing the label of the input stream and its type as described in “[Variable types](#varaible-types)” (e.g. “Float”, “Integer”, “Vector”, et cetera).
 
 ### Specified variable outputs
 To prepare the application for the outputs the diagram can calculate, it can be helpful to have the ability to retrieve the list of specified outputs. To retrieve this list, the `getVariableOutputs()` method of the dataflow diagram must be called.
@@ -158,14 +158,14 @@ In most cases constants are used in a diagram to indicate a setting for a specif
 ### Specified constants
 To be able to know which constants are used in the diagram, the `getConstants()` method of the dataflow diagram can be called.
 ```swift
-public func getConstants() -> [(label:String, value:Any)]
+func getConstants() -> [(label:String, value:Any)]
 ```
 In a diagram it is not mandatory to specify a label for each constant. As such, there might be constants which have no label. The function however will only return those constants for which a label is defined. The labels of the constants don’t have to be unique. As such a label could be present multiple times in the returned array.
 
 ### Change constant value
 To be able to change the value of a constant, the `setConstant()` method of the dataflow diagram can be called.
 ```swift
-public func setConstant( label:String, newValue:Any )
+func setConstant( label:String, newValue:Any )
 ```
 As mentioned above, there can be constants with the same label. Calling the function will change the value for all constants with the specified label. The constant will only be set when the type of the supplied `newValue` parameter matches that of the constant (i.e. as returned by the `getConstants()` method described in "[Specified constants](#specified-constants)").
 
@@ -177,7 +177,7 @@ As described in “[Dataflow diagram I/O](#dataflow-diagram-io)”, the applicat
 Whenever the application has updated information, it needs to create a `DataflowDiagramInput` struct variable and set the `timestamp` field, fill the `updates` dictionary field with the names of the input streams in the diagram. The created variable is then used in a call of the `updateInputStreams()` method of the dataflow diagram.
 
 ```swift
-public func updateInputStreams( diagramInput : DataflowDiagramInput  )
+func updateInputStreams( diagramInput : DataflowDiagramInput  )
 ```
 
 When the `updates` dictionary contains names that are not part of the diagram's input streams, these are simply ignored.
@@ -186,19 +186,19 @@ When the `updates` dictionary contains names that are not part of the diagram's 
 When the update results in one or more updates for the specified variable outputs, the delegate's `newVariableOutputUpdates()` protocol function will be called as described in “[Update protocol](#update-protocol)” and repeated below for reference.
 
 ```swift
-public func newVariableOutputUpdates(_ output: DataflowDiagramOutput )
+func newVariableOutputUpdates(_ output: DataflowDiagramOutput )
 ```
 ### Process an array of updates
 When processing for example a file, the processing can be performed in on batch. To do this, the application needs to create an array of `DataflowDiagramInput` structs and for each element in this array set the `timestamp` field and fill the `updates` dictionary field with the names of the input streams in the diagram. The created array is then used in a call of the `processAllUpdates()` method of the dataflow diagram.
 
 ```swift
-    public func processAllUpdates( diagramInputs: [DataflowDiagramInput] )
+func processAllUpdates( diagramInputs: [DataflowDiagramInput] )
 ```
 
 The processing will be performed in the background and when finished, the delegate's `allUpdatesProcessed()` protocol function will be called as described in “[Update protocol](#update-protocol)” and repeated below for reference.
 
 ```swift
-    func allUpdatesProcessed(_ outputs: [DataflowDiagramOutput] )
+func allUpdatesProcessed(_ outputs: [DataflowDiagramOutput] )
 ```
 
 ### Read input from a JSONL file
@@ -251,7 +251,7 @@ The JSON schema for a line in a data file is given below.
 To process a JSONL string (as read from a file), the `readDataflowDiagramInputs()` function can be called.
 
 ```swift
-public func readDataflowDiagramInputs( from jsonLines: String ) -> [DataflowDiagramInput]
+func readDataflowDiagramInputs( from jsonLines: String ) -> [DataflowDiagramInput]
 ```
 
 The returned array can then be used in a call to the `processAllUpdates()` method as described in "[Process an array of updates](#process-an-array-of-updates)".
@@ -267,13 +267,13 @@ func createJsonLines( from dataflowDiagramInputs : [DataflowDiagramInput] ) -> S
 ### Hide variable outputs
 By default, all updated variable outputs are offered to the application via the `newVariableOutputUpdates()` protocol function (see "[Receive updated variable outputs](#receive-updated-variable-outputs)"). However, as it is possible to have variable outputs that have linked input streams (to allow for diagram loops), it can be preferred that some variable outputs are hidden in order for their updates not to be forwarded to the application, but can still be used by linked input streams. To control the visibility of a variable output, the `setVariableOutputHidden()` method can be called.
 ```swift
-public func setVariableOutputHidden( label:String, hidden:Bool )
+func setVariableOutputHidden( label:String, hidden:Bool )
 ```
 
 ### Disable forwarding of input streams
 By default, all updates of input streams are also forwarded as output of the diagram and are offered to the application via the  `newVariableOutputUpdates()` protocol function (see "[Receive updated variable outputs](#receive-update-variable-outputs)"). This can for example be used when using animation of segments. This can be disabled by calling the `setInputStreamForwarding()` method.
 ```swift
-public func setInputStreamForwarding( label:String, forwarding:Bool )
+func setInputStreamForwarding( label:String, forwarding:Bool )
 ```
 Note that the application could use the type (see “[Variable types](#variable-types)”) to determine how to use or present it.
 
@@ -282,7 +282,7 @@ While the inputs are updated, the internal temporal state of the diagram changes
 
 To be able to remove any history from the diagram and set the diagram to a state as if no update occurred yet, the `reset()` method of the dataflow diagram can be called.
 ```swift
-public func reset()
+func reset()
 ```
 
 ## String representations
@@ -291,7 +291,7 @@ public func reset()
 To get the string representation of a dataflow diagram output value, the `getValueString()` function can be called.
 
 ```swift
-public func getValueString(_ value : Any ) -> String
+func getValueString(_ value : Any ) -> String
 ```
 
 ### Set the value from a string
