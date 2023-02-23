@@ -128,9 +128,9 @@ When a diagram is filled (see “[Fill the diagram](#fill-the-diagram)”), it c
 ### Used input streams
 Which input streams the diagram uses is important information for the application to know which information must be supplied. To retrieve the used input streams the `getInputStreams()` method of the dataflow diagram must be called.
 ```swift
-public func getInputStreams() -> [String]
+public getInputStreams() -> [(label:String, typeString:String)]
 ```
-The output of the function is an array of strings containing the descriptions of the input streams as described in “[Dataflow diagram I/O](#dataflow-diagram-io)” (e.g. “Torso”, “Neck”, “Left elbow”, et cetera).
+The output of the function is an array of tuples containing the label of the input stream and its type as described in “[Variable types](#varaible-types)” (e.g. “Float”, “Integer”, “Vector”, et cetera).
 
 ### Specified variable outputs
 To prepare the application for the outputs the diagram can calculate, it can be helpful to have the ability to retrieve the list of specified outputs. To retrieve this list, the `getVariableOutputs()` method of the dataflow diagram must be called.
