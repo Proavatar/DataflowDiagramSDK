@@ -933,6 +933,39 @@
       },
       {
         "kind": "Function",
+        "name": "setValueFromString",
+        "printedName": "setValueFromString(value:string:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any",
+            "paramValueOwnership": "InOut"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DataflowDiagramSDK18setValueFromString5value6stringyypz_SStF",
+        "mangledName": "$s18DataflowDiagramSDK18setValueFromString5value6stringyypz_SStF",
+        "moduleName": "DataflowDiagramSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
         "name": "readDataflowDiagramInputs",
         "printedName": "readDataflowDiagramInputs(from:)",
         "children": [
