@@ -287,8 +287,17 @@ public func reset()
 
 ## String representations
 
+### Get the string from value
 To get the string representation of a dataflow diagram output value, the `getValueString()` function can be called.
 
 ```swift
 public func getValueString(_ value : Any ) -> String
+```
+
+### Set the value from a string
+
+To set the value from a string, the `func setValueFromString()` function can be called.
+
+```swift
+func setValueFromString( value: inout Any, string: String )
 ```
