@@ -83,7 +83,7 @@ public class DataflowDiagram {
   public init(variableOutputUpdatesReceiver: DataflowDiagramSDK.VariableOutputUpdatesReceiver? = nil)
   public func activateLicense(licenseKey: Swift.String, bundleId: Swift.String)
   public func read(from jsonString: Swift.String, replace: Swift.Bool = true) -> Swift.Bool
-  public func getInputStreams() -> [Swift.String]
+  public func getInputStreams() -> [(label: Swift.String, typeString: Swift.String)]
   public func getVariableOutputs() -> [(label: Swift.String, typeString: Swift.String)]
   public func getManualLines() -> [Swift.String]
   public func createJSON() -> Swift.String

@@ -1807,21 +1807,34 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.String]",
+                "printedName": "[(label: Swift.String, typeString: Swift.String)]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Tuple",
+                    "printedName": "(label: Swift.String, typeString: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18DataflowDiagramSDK0aB0C15getInputStreamsSaySSGyF",
-            "mangledName": "$s18DataflowDiagramSDK0aB0C15getInputStreamsSaySSGyF",
+            "usr": "s:18DataflowDiagramSDK0aB0C15getInputStreamsSaySS5label_SS10typeStringtGyF",
+            "mangledName": "$s18DataflowDiagramSDK0aB0C15getInputStreamsSaySS5label_SS10typeStringtGyF",
             "moduleName": "DataflowDiagramSDK",
             "declAttributes": [
               "AccessControl",
@@ -3617,7 +3630,7 @@
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "IntegerLiteral",
-      "offset": 27384,
+      "offset": 27526,
       "length": 1,
       "value": "0"
     }
