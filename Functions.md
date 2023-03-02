@@ -1309,7 +1309,7 @@ The sequence for which the time of the first sample is set to the value of the f
    </td>
    <td><span style="text-decoration:underline;">Array</span>
 <p>
-The float representations of the) indices of the closest matches to the float input in the zero-based array.
+The float representations of the indices of the closest matches to the float input in the zero-based array.
    </td>
   </tr>
   <tr>
