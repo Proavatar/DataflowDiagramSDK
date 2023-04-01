@@ -1,6 +1,5 @@
 # Function list
 
-
 <table>
   <tr>
    <td>Name
@@ -31,15 +30,15 @@ The absolute value of the float.
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
-The addition operation is performed on the two generic inputs which are of the same type.
+The addition operation is performed on the two generic inputs which are of the same type. Unsupported types: Boolean and Boolean array. 
    </td>
   </tr>
   <tr>
@@ -48,13 +47,13 @@ The addition operation is performed on the two generic inputs which are of the s
    <td>
 <ol>
 
-<li>Float
+<li>Generic value
 
-<li>Array
+<li>Generic array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Generic array</span>
 <p>
 A copy of the array with the float value is added to the end.
    </td>
@@ -97,11 +96,11 @@ The logical AND operation between the two booleans.
    <td>
 <ol>
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Float array</span>
 <p>
 A copy of the array with all its elements converted to their absolute values.
    </td>
@@ -112,13 +111,13 @@ A copy of the array with all its elements converted to their absolute values.
    <td>
 <ol>
 
-<li>Array
+<li>Generic array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Float</span>
+   <td><span style="text-decoration:underline;">Generic value</span>
 <p>
-The sum of all the elements in the array.
+The sum of all the elements in the array. Unsupported types are: Boolean array and Sequence array.
    </td>
   </tr>
   <tr>
@@ -127,7 +126,7 @@ The sum of all the elements in the array.
    <td>
 <ol>
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
@@ -161,11 +160,11 @@ Sum of all previous updates of the float input during the time the boolean input
 
 <li>Integer
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
 The generic input delayed by the number of updates specified by the integer input. When the generic input is updated, the new value is stored in an internal array. When the size of this array is larger than the current value of the integer input, the oldest elements are removed to correct the size. After this is done, the first element in the array is forwarded to the output.  
    </td>
@@ -216,11 +215,11 @@ A new sequence containing the centered moving average of the input sequence wher
 
 <li>Float
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Float array</span>
 <p>
 A copy of the input array but with all elements removed that are smaller than the first float input or larger than the second float input.
    </td>
@@ -233,13 +232,13 @@ A copy of the input array but with all elements removed that are smaller than th
 
 <li>Integer
 
-<li>Array
+<li>Generic array
 
-<li>Array
+<li>Generic array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Generic array</span>
 <p>
 A new array in which the first array input is added into the second array input at the 0-based index specified by the integer input.
    </td>
@@ -250,9 +249,9 @@ A new array in which the first array input is added into the second array input 
    <td>
 <ol>
 
-<li>Array
+<li>Float array
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
@@ -284,13 +283,13 @@ The cosine value of the input float.
 
 <li>Integer
 
-<li>Float
+<li>Generic value
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Generic array</span>
 <p>
-The updates of the float input are stored internally in an array. The array is offered as the output when the number of elements in the array is equal to the value of the integer input. Each time the float input updates the new float is added to the array and the oldest element is removed.
+The updates of the value input are stored internally in an array. The array is offered as the output when the number of elements in the array is equal to the value of the integer input. Each time the value input updates the new value is added to the array and the oldest element is removed.
    </td>
   </tr>
   <tr>
@@ -380,15 +379,15 @@ The distance between the two points specified by the input vectors.
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
-The divide operation is performed on the two generic inputs which are of the same type.
+The divide operation is performed on the two generic variable inputs which are of the same type. Unsupported types are: Boolean, Boolean array, String and String array.
    </td>
   </tr>
   <tr>
@@ -427,9 +426,9 @@ The timestamp of the last sample in the sequence.
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
@@ -495,11 +494,11 @@ The interpolated value between two float values (inputs 2 and 3) for a given tim
 
 <li>Boolean
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
 Only when the boolean input is true is an update of the second input is forwarded to the output.
    </td>
@@ -512,11 +511,11 @@ Only when the boolean input is true is an update of the second input is forwarde
 
 <li>Integer
 
-<li>Array
+<li>Generic array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Float</span>
+   <td><span style="text-decoration:underline;">Generic value</span>
 <p>
 The element from the array input with the 0-based index equal to the integer input.
    </td>
@@ -527,13 +526,13 @@ The element from the array input with the 0-based index equal to the integer inp
    <td>
 <ol>
 
-<li>Array
+<li>Float array
 
 <li>Sequence
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Float array</span>
 <p>
 An array containing the interpolated values from the sequence at the timestamps defined by the input array.
    </td>
@@ -544,7 +543,7 @@ An array containing the interpolated values from the sequence at the timestamps 
    <td>
 <ol>
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
@@ -559,7 +558,7 @@ The index of the maximum of the array. The function fails when the array is empt
    <td>
 <ol>
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
@@ -576,15 +575,15 @@ The index of the minimum of the array. The function fails when the array is empt
 
 <li>Integer
 
-<li>Foat
+<li>Generic value
 
-<li>Array
+<li>Generic array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Generic array</span>
 <p>
-A copy of the array input with the value of the float input inserted at the 0-based index specified by the integer input.
+A copy of the array input with the value input inserted at the 0-based index specified by the integer input.
    </td>
   </tr>
   <tr>
@@ -629,7 +628,7 @@ The time integral of the float input which is calculated by determining the area
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Integer</span>
+   <td><span style="text-decoration:underline;">Float array</span>
 <p>
 An array containing the timestamps of the interpolated intersections with the float value input.
    </td>
@@ -704,7 +703,7 @@ The inverse tangent of the input float.
 
 <li>String
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
@@ -719,14 +718,14 @@ A new JSON string is created which is a copy of the first string input that also
    <td>
 <ol>
 
-<li>Generic
+<li>Generic value
 
-<li>Generic
+<li>Generic value
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic \
-</span>Whether the first input is larger than the second. This function is only defined for Integer and Float values.
+   <td><span style="text-decoration:underline;">Boolean \
+</span>Whether the first input is larger than the second. Unsupported types are: Boolean, Vector and Orientation.
    </td>
   </tr>
   <tr>
@@ -735,15 +734,15 @@ A new JSON string is created which is a copy of the first string input that also
    <td>
 <ol>
 
-<li>Generic
+<li>Generic value
 
-<li>Generic
+<li>Generic value
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Boolean</span>
 <p>
-Whether the first input is larger than or equal to the second. This function is only defined for Integer and Float values.
+Whether the first input is larger than or equal to the second. Unsupported types are: Boolean, Vector and Orientation.
    </td>
   </tr>
   <tr>
@@ -752,7 +751,7 @@ Whether the first input is larger than or equal to the second. This function is 
    <td>
 <ol>
 
-<li>Generic
+<li>Float
 
 <li>Vector
 </li>
@@ -788,15 +787,15 @@ A 3D vector is created for which the scalars are the input floats.
    <td>
 <ol>
 
-<li>Float
+<li>Generic value
 
-<li>Float
+<li>Generic value
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Float</span>
+   <td><span style="text-decoration:underline;">Generic value</span>
 <p>
-The largest value of the two inputs.
+The largest value of the two inputs. Unsupported types are: Boolean, Vector and Orientation.
    </td>
   </tr>
   <tr>
@@ -805,7 +804,7 @@ The largest value of the two inputs.
    <td>
 <ol>
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
@@ -820,15 +819,15 @@ The maximum value in the array.
    <td>
 <ol>
 
-<li>Float
+<li>Generic value
 
-<li>Float
+<li>Generic value
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Float</span>
+   <td><span style="text-decoration:underline;">Generic value</span>
 <p>
-The lowest value of the two inputs.
+The lowest value of the two inputs. Unsupported types are: Boolean, Vector and Orientation.
    </td>
   </tr>
   <tr>
@@ -837,7 +836,7 @@ The lowest value of the two inputs.
    <td>
 <ol>
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
@@ -847,10 +846,27 @@ The minimum value in the array.
    </td>
   </tr>
   <tr>
+   <td>Modulo
+   </td>
+   <td>
+<ol>
+
+<li>Float
+</li>
+</ol>
+   </td>
+   <td><span style="text-decoration:underline;">Float</span>
+<p>
+The modulo of the input.
+   </td>
+  </tr>
+  <tr>
    <td>Moving averager
    </td>
    <td>
 <ol>
+
+<li>Integer
 
 <li>Float
 </li>
@@ -867,15 +883,15 @@ The average of the last <em>N</em> values of the float input, with <em>N</em> sp
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
-The result of the multiplication operation performed on the two generic inputs which are of the same type.
+The result of the multiplication operation performed on the two generic inputs which are of the same type. Unsupported types are: Boolean, Boolean array,  String and String array.
    </td>
   </tr>
   <tr>
@@ -884,11 +900,11 @@ The result of the multiplication operation performed on the two generic inputs w
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
 Negates the generic input.
    </td>
@@ -959,7 +975,7 @@ The logical inverse of the boolean input.
    <td>
 <ol>
 
-<li>Array
+<li>Generic array
 </li>
 </ol>
    </td>
@@ -993,13 +1009,13 @@ The logical OR operation between the two booleans.
 
 <li>Boolean
 
-<li>Array
+<li>Generic array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Generic array</span>
 <p>
-The ordered input array. The boolean indicates whether the array must be done in ascending order.
+The ordered input array. The boolean indicates whether the array must be done in ascending order. Unsupported types are: Sequence array, Vector array and Orientation array.
    </td>
   </tr>
   <tr>
@@ -1008,13 +1024,13 @@ The ordered input array. The boolean indicates whether the array must be done in
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
 The updated input. In the situation when both inputs are updated in the same timestamp, the first input is passed.
    </td>
@@ -1025,11 +1041,11 @@ The updated input. In the situation when both inputs are updated in the same tim
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
 Simply the input when it is updated. Can be helpful to clean-up diagrams and during constructions of containers.
    </td>
@@ -1063,7 +1079,7 @@ The maximum value of the second input above the threshold (first input). Output 
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Float</span>
 <p>
 The value of the first float input to the power of the second.
    </td>
@@ -1199,11 +1215,11 @@ The input float multiplied by 180 and divided by π.
 
 <li>Integer
 
-<li>Array
+<li>Generic array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Generic array</span>
 <p>
 A copy of the input array with the element removed at the 0-based index specified by the integer input.
    </td>
@@ -1267,13 +1283,13 @@ The value of the float input rounded to the number of digits specified by the in
 
 <li>Float
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
-The generic input value for which the value or all the components are multiplied by the factor specified by the float input.
+The generic input variable for which the value or all the components are multiplied by the factor specified by the float input. Unsupported types are: Boolean, Boolean array, Orientation, Orientation array, String and String array.
    </td>
   </tr>
   <tr>
@@ -1303,13 +1319,13 @@ The sequence for which the time of the first sample is set to the value of the f
 
 <li>Float
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Integer array</span>
 <p>
-The float representations of the indices of the closest matches to the float input in the zero-based array.
+The output is the integer array holding the indices of the closest matches to the float input in the zero-based array.
    </td>
   </tr>
   <tr>
@@ -1356,7 +1372,7 @@ A new sequence with all the rectified samples of the input sequence. When two co
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Float array</span>
 <p>
 An array containing the timestamps of all the samples of the input sequence.
    </td>
@@ -1371,7 +1387,7 @@ An array containing the timestamps of all the samples of the input sequence.
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Float array</span>
 <p>
 An array containing the values of all the samples of the input sequence.
    </td>
@@ -1401,11 +1417,11 @@ An internal sequence is created which stores all the updates of the second float
 
 <li>Float
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Float array</span>
 <p>
 A new array where the float value is added to each element of the array.
    </td>
@@ -1448,15 +1464,15 @@ The sine of the float input.
    <td>
 <ol>
 
-<li>Generic
+<li>Generic value
 
-<li>Generic
+<li>Generic value
 </li>
 </ol>
    </td>
    <td><span style="text-decoration:underline;">Boolean</span>
 <p>
-Whether the first input is smaller than the second input. Only implemented for Float and Integer. For other types the function always returns false.
+Whether the first input is smaller than the second input. Unsupported types are: Boolean, Vector and Orientation.
    </td>
   </tr>
   <tr>
@@ -1465,15 +1481,15 @@ Whether the first input is smaller than the second input. Only implemented for F
    <td>
 <ol>
 
-<li>Generic
+<li>Generic value
 
-<li>Generic
+<li>Generic value
 </li>
 </ol>
    </td>
    <td><span style="text-decoration:underline;">Boolean</span>
 <p>
-Whether the first input is smaller than or equal to the second input. Only implemented for Float and Integer. For other types the function always returns false.
+Whether the first input is smaller than or equal to the second input. Only implemented for Float and Integer. Unsupported types are: Boolean, Vector, and Orientation.
    </td>
   </tr>
   <tr>
@@ -1497,15 +1513,15 @@ The timestamp of the first sample in the sequence.
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
-The result of the subtraction operation performed on the two generic inputs which are of the same type.
+The result of the subtraction operation performed on the two generic inputs which are of the same type. Unsupported types are: Boolean, Boolean array, String, String array.
    </td>
   </tr>
   <tr>
@@ -1516,13 +1532,13 @@ The result of the subtraction operation performed on the two generic inputs whic
 
 <li>Boolean
 
-<li>Generic
+<li>Generic variable
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Generic</span>
+   <td><span style="text-decoration:underline;">Generic variable</span>
 <p>
 When the boolean input is <em>true</em>, the first one of the generic inputs is forwarded when updated, otherwise the second generic input is forwarded when updated.
    </td>
@@ -1578,7 +1594,7 @@ A new sequence containing the time integral of the input sequence, i.e. the area
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
@@ -1610,7 +1626,7 @@ Whether or not the boolean input changed its value (<em>true</em> to <em>false</
 
 <li>Boolean
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
@@ -1629,11 +1645,11 @@ When the boolean input is updated to true, the other input is forwarded as an up
 
 <li>Integer
 
-<li>Array
+<li>Float array
 </li>
 </ol>
    </td>
-   <td><span style="text-decoration:underline;">Array</span>
+   <td><span style="text-decoration:underline;">Float array</span>
 <p>
 A new array that is a subset of the input array containing the elements with a  0-based index larger or equal to the first integer input and smaller or equal to the second integer input.
    </td>
@@ -1644,7 +1660,7 @@ A new array that is a subset of the input array containing the elements with a  
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
@@ -1659,7 +1675,7 @@ The number of times the input was updated.
    <td>
 <ol>
 
-<li>Generic
+<li>Generic variable
 </li>
 </ol>
    </td>
