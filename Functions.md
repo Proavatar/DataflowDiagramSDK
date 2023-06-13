@@ -57,7 +57,7 @@
    </td>
    <td>Generic array
    </td>
-   <td>A copy of the array with the float value is added to the end.
+   <td>A copy of the array with the supplied value is added to the end.
    </td>
   </tr>
   <tr>
