@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DataflowDiagramSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import DataflowDiagramSDK
@@ -62,7 +62,6 @@ extension Swift.Array where Element == Swift.Double {
   public init?(_ string: Swift.String)
 }
 public func getValueString(_ value: Any) -> Swift.String
-public func setValueFromString(value: inout Any, string: Swift.String)
 public func readDataflowDiagramInputs(from jsonLines: Swift.String) -> [DataflowDiagramSDK.DataflowDiagramInput]
 public func createJsonLines(from dataflowDiagramInputs: [DataflowDiagramSDK.DataflowDiagramInput]) -> Swift.String
 public struct DataflowDiagramInput {
@@ -80,10 +79,9 @@ public protocol VariableOutputUpdatesReceiver : AnyObject {
   func allUpdatesProcessed(_ outputs: [DataflowDiagramSDK.DataflowDiagramOutput])
 }
 public class DataflowDiagram {
-  public init(variableOutputUpdatesReceiver: DataflowDiagramSDK.VariableOutputUpdatesReceiver? = nil)
-  public func activateLicense(licenseKey: Swift.String, bundleId: Swift.String)
+  public init(variableOutputUpdatesReceiver: (any DataflowDiagramSDK.VariableOutputUpdatesReceiver)? = nil)
   public func read(from jsonString: Swift.String, replace: Swift.Bool = true) -> Swift.Bool
-  public func getInputStreams() -> [(label: Swift.String, typeString: Swift.String)]
+  public func getInputStreams() -> [Swift.String]
   public func getVariableOutputs() -> [(label: Swift.String, typeString: Swift.String)]
   public func getManualLines() -> [Swift.String]
   public func createJSON() -> Swift.String
