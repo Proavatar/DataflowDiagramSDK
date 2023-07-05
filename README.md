@@ -2,7 +2,7 @@
 
 This following describes the software development kit (SDK) enabling iOS applications to use dataflow diagrams that implement specific algorithms to process timestamped sensor data as for example generated a motion capture system (see our [Motion Capture SDK](https://github.com/Proavatar/MotionCaptureSDK.git)) and calculate specific output values.
 
->A detailed explanation of the dataflow programming method, can be found [here](https://proavatar.github.io/DataflowDiagramSDK/).
+>A detailed explanation of the dataflow programming method, can be found [here](https://proavatar.io/dataflow/).
 
 The SDK is offered as a Swift Package that implements the following functionality:
 * [Create a new dataflow diagram and fill it with a specified algorithm](#creating-a-dataflow-diagram).
@@ -74,9 +74,15 @@ In the following table the variable types are defined that can be used in a data
 | Vector        | `simd_double3` | A 3D position (x,y,z).            |
 | Boolean       | `Bool`       | Logical value, i.e. true or false. |
 | Orientation   | `simd_quatd` | An orientation, expressed as a quaternion (x,y,z,w). |
-| Array         | `[Double]`   | A collection of floats, i.e. [f<sub>0</sub> , ... , f<sub>N-1</sub>]. |
 | Sequence      | `[(t:Double,f:Double)]` | An array of timestamped floats, i.e. [(t<sub>0</sub> , f<sub>0</sub>) , ... , (t<sub>N-1</sub> , f<sub>N-1)</sub>]. |
 | String        | `String`     | A piece of text. |
+| Float array   | `[Double]`   | A collection of floats, i.e. [f<sub>0</sub> , ... , f<sub>N-1</sub>]. |
+| Integer array | `[Integer]`   | A collection of integers, i.e. [i<sub>0</sub> , ... , i<sub>N-1</sub>]. |
+| Boolean array | `[Boolean]`   | A collection of booleans, i.e. [b<sub>0</sub> , ... , b<sub>N-1</sub>]. |
+| String array  | `[String]`   | A collection of strings, i.e. [$<sub>0</sub> , ... , $<sub>N-1</sub>]. |
+| Vector array   | `[Vector]`   | A collection of vectors, i.e. [v<sub>0</sub> , ... , v<sub>N-1</sub>]. |
+| Orientation array   | `[Orientation]`   | A collection of orientations, i.e. [q<sub>0</sub> , ... , q<sub>N-1</sub>]. |
+| Sequence array   | `[Sequence]`   | A collection of sequences, i.e. [s<sub>0</sub> , ... , s<sub>N-1</sub>]. |
 
 Import `simd` for using the `simd_double3` and `simd_quatd` types.
 
