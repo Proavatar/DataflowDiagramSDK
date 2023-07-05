@@ -140,7 +140,7 @@ func getVariableOutputs() -> [(label:String, typeString:String)]
 The output of the function is an array of tuples containing the label of the output variable and its type as described in “[Variable types](#varaible-types)” (e.g. “Float”, “Integer”, “Vector”, et cetera).
 
 ### Get manual lines
-The dataflow diagram could have some manual lines which might contain usage information which might be useful information for the application. To obtain these lines the getManualLine() method of the dataflow diagram must be called.
+The dataflow diagram could have some manual lines which might contain usage information which might be useful information for the application. To obtain these lines the ``getManualLine()`` method of the dataflow diagram must be called.
 ```swift
 func getManualLines() -> [String]
 ```
