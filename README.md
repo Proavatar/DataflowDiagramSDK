@@ -195,7 +195,7 @@ When the update results in one or more updates for the specified variable output
 func newVariableOutputUpdates(_ output: DataflowDiagramOutput )
 ```
 ### Process an array of updates
-When processing for example a file, the processing can be performed in on batch. To do this, the application needs to create an array of `DataflowDiagramInput` structs and for each element in this array set the `timestamp` field and fill the `updates` dictionary field with the names of the input streams in the diagram. The created array is then used in a call of the `processAllUpdates()` method of the dataflow diagram.
+When processing for example a file, the processing can be performed in one batch. To do this, the application needs to create an array of `DataflowDiagramInput` structs and for each element in this array set the `timestamp` field and fill the `updates` dictionary field with the names of the input streams in the diagram. The created array is then used in a call of the `processAllUpdates()` method of the dataflow diagram.
 
 ```swift
 func processAllUpdates( diagramInputs: [DataflowDiagramInput] )
