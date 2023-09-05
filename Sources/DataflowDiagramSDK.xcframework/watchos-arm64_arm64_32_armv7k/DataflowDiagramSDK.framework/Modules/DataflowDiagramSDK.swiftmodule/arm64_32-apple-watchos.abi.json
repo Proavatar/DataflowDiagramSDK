@@ -4833,8 +4833,8 @@
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/functionTips.swift",
       "kind": "Dictionary",
       "offset": 37,
-      "length": 16260,
-      "value": "[(\"Absolute\", \"The absolute value of the input. Unsupported types are: Boolean, Boolean array, String, String array, Orientation, Orientation array and Sequence array\"), (\"Add\", \"The addition operation is performed on the two generic inputs which are of the same type. Unsupported types: Boolean and Boolean array. \"), (\"Add to array\", \"A copy of the array with the supplied value is added to the end.\"), (\"Adder\", \"Sum of all previous updates.\"), (\"And\", \"The logical AND operation between the two booleans.\"), (\"Array sum\", \"The sum of all the elements in the array. Unsupported types are: Boolean array and Sequence array.\"), (\"Average\", \"The average value of the elements in the array.\"), (\"Averager\", \"Sum of all previous updates of the input during the time the boolean input is 'true', divided by the number of updates.\"), (\"Buffer\", \"The generic input delayed by the number of updates specified by the integer input. When the generic input is updated, the new value is stored in an internal array. When the size of this array is larger than the current value of the integer input, the oldest elements are removed to correct the size. After this is done, the first element in the array is forwarded to the output.\"), (\"Cap values\", \"A copy of the sequence input for which the value of all samples are limited to fall between the first and second float.\"), (\"Ceiling\", \"Rounds the float input up to the nearest integer.\"), (\"Centered moving average\", \"A new sequence containing the centered moving average of the input sequence where the size of the averaging window is specified by the integer input. The output is generated when the sequence input is updated.\"), (\"Clip\", \"A copy of the input array but with all elements removed that are smaller than the first float input or larger than the second float input.\"), (\"Combine arrays\", \"A new array in which the first array input is added into the second array input at the 0-based index specified by the integer input.\"), (\"Convert to sequence\", \"A new sequence with the timestamps specified by the first array input and the values by the second.\"), (\"Cosine\", \"The cosine value of the input float.\"), (\"Create array\", \"The updates of the value input are stored internally in an array. The array is offered as the output when the number of elements in the array is equal to the value of the integer input. Each time the value input updates the new value is added to the array and the oldest element is removed.\"), (\"Create sequence\", \"When the boolean is updated to 'true' an empty sequence is created internally and all subsequent updates of the float value are added as samples. When the boolean input becomes 'false', the output is updated with the created sequence.\"), (\"Cumulative sum\", \"Returns an array where each element is the sum of the elements before it in the input array. Unsupported types are: Boolean array and Sequence array.\"), (\"Degrees to radians\", \"The input float is multiplied by π and then divided by 180.\"), (\"Delay\", \"The value of the second float and its timestamp are buffered internally. Whenever a new update is received for that float, the buffered samples are used to calculate the interpolated value the float would have had at the time in the past specified by the current time minus the value of the second float.\"), (\"Derivative\", \"The time derivative of the float, calculated by taking the difference between the current and previous values, and dividing it by the difference between the current and previous timestamps, yielding the rate of change of the input float.\"), (\"Distance\", \"The distance between the two points specified by the input vectors.\"), (\"Divide\", \"The divide operation is performed on the two generic variable inputs which are of the same type. Unsupported types are: Boolean, Boolean array, String and String array.\"), (\"Duplicate\", \"Create an array containing the indicated number of duplicates of the input value.\"), (\"Duration\", \"The difference between the timestamp of the first and last sample.\"), (\"End time\", \"The timestamp of the last sample in the sequence.\"), (\"Equal\", \"Whether the two inputs are equal. For an array or sequence this must first mean that the number of elements is equal.\"), (\"Euler to quaternion\", \"The quaternion resulting from an Euler specified as a 3D vector input with the coordinates specifying yaw, pitch, roll.\"), (\"First\", \"The first element in the array\"), (\"Float\", \"The float representation of the input integer.\"), (\"Float interpolation\", \"The interpolated value between two float values (inputs 2 and 3) for a given time (input 1).\"), (\"Floor\", \"Rounds the float input down to the nearest integer.\"), (\"Gate\", \"Only when the boolean input is true is an update of the second input is forwarded to the output.\"), (\"Get element\", \"The element from the array input with the 0-based index equal to the integer input.\"), (\"Get interpolated values\", \"An array containing the interpolated values from the sequence at the timestamps defined by the input array.\"), (\"Index of maximum\", \"The index of the maximum of the array. The function fails when the array is empty.\"), (\"Index of minimum\", \"The index of the minimum of the array. The function fails when the array is empty.\"), (\"Insert into array\", \"A copy of the array input with the value input inserted at the 0-based index specified by the integer input.\"), (\"Integer\", \"Integer representation of the truncated float.\"), (\"Integral\", \"The time integral of the float input which is calculated by determining the area under the curve of a function between two points. The integral is calculated using the trapezoidal rule.\"), (\"Intersections\", \"An array containing the timestamps of the interpolated intersections with the float value input.\"), (\"Inverse cosine\", \"The inverse cosine of the input float.\"), (\"Inverse quaternion\", \"The inverse of the quaternion input.\"), (\"Inverse sine\", \"The inverse sine of the input float.\"), (\"Inverse tangent\", \"The inverse tangent of the input float.\"), (\"JSON output\", \"A new JSON string is created which is a copy of the first string input that also contains a JSON string. A new element is added to the new JSON string using the second string input as the key for the value specified in the generic input.\"), (\"Larger\", \"Whether the first input is larger than the second. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Larger or equal\", \"Whether the first input is larger than or equal to the second. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Last\", \"The last element in the array.\"), (\"Limiter\", \"The output is the first float unless it is larger than the second, then the output is the second float.\"), (\"Linearize\", \"The output is the trendline of the input sequence.\"), (\"Make quaternion\", \"The quaternion resulting from a rotation in radians as specified by the float input around the vector specified by the second input.\"), (\"Make vector\", \"A 3D vector is created for which the scalars are the input floats.\"), (\"Max\", \"The largest value of the two inputs. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Maximum\", \"The maximum value in the array.\"), (\"Min\", \"The lowest value of the two inputs. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Minimum\", \"The minimum value in the array.\"), (\"Modulo\", \"The modulo of the input.\"), (\"Moving averager\", \"The average of the last 'N' values of the input, with 'N' specified by the integer input.\"), (\"Multiply\", \"The result of the multiplication operation performed on the two generic inputs which are of the same type. Unsupported types are: Boolean, Boolean array, String and String array.\"), (\"Negate\", \"Negates the generic input. Unsupported types are: String and String array.\"), (\"Normalize\", \"A new sequence where the sample values are copied from the input sequence but the time 't' is scaled and shifted to start at 't' = 0 and end at 't' = 1.\"), (\"Normalize quaternion\", \"The normalized version of the input quaternion.\"), (\"Normalize vector\", \"The normalized version of the input vector.\"), (\"Not\", \"The logical inverse of the boolean input.\"), (\"Number of elements\", \"The number of elements in the array.\"), (\"Or\", \"The logical OR operation between the two booleans.\"), (\"Order\", \"The ordered input array. The boolean indicates whether the array must be done in ascending order. Unsupported types are: Sequence array, Vector array and Orientation array.\"), (\"Pass updated\", \"The updated input. In the situation when both inputs are updated in the same timestamp, the first input is passed.\"), (\"Pass-through\", \"Simply the input when it is updated. Can be helpful to clean-up diagrams and during constructions of containers.\"), (\"Peak detector\", \"The maximum value of the second input above the threshold (first input). Output is generated when a new maximum is set.\"), (\"Percentile\", \"A percentile value of a list of numbers tells where the input value stands in relation to the rest of the numbers, i.e. how many numbers in the array are smaller than the input value.\"), (\"Power\", \"The value of the first input to the power of the second. Unsupported types are String, String array, Boolean, Boolean array, Orientation, Orientation array and Sequence array\"), (\"Quaternion\", \"Orientation that is created from the 4 floats (x,y,z,w) to create a normalized quaternion.\"), (\"Quaternion angle\", \"The angle in radians by which to rotate around the rotation axis to get the quaternion input.\"), (\"Quaternion axis\", \"The rotation axis around which to rotate with the rotation angle to get the quaternion input.\"), (\"Quaternion interpolation\", \"The spherical linear interpolation value between the two timestamped orientation inputs at the timestamp specified by the float input.\"), (\"Quaternion spline\", \"Interpolated quaternion between quaternions along a spherical cubic spline. The function interpolates between q_2 and q_3 with q_1 the left endpoint of the previous interval and q_4 the right endpoint of the next interval. This function smoothly interpolates between a sequence of rotations such that the quaternion and angular rate and acceleration vectors are continuous functions of time over the interpolation interval.\"), (\"Quaternion to Euler\", \"Euler vector (yaw, pitch, roll). The angles are in degrees.\"), (\"Radians to degrees\", \"The input float multiplied by 180 and divided by π.\"), (\"Remove indices\", \"The input array with the elements removed at specified indices.\"), (\"Remove from array\", \"The input array with the element removed at the specified index.\"), (\"Resample\", \"A new sequence created from the input sequence where the integer input specifies the new number of samples and with the new values calculated using interpolation. Note that the first and last sample of the new sequence are the same as in the input sequence.\"), (\"Reverse array\", \"Creates an array in reversed order as the input array.\"), (\"Rotate vector\", \"The input vector rotated with the specified quaternion.\"), (\"Rotation matrix to quaternion\", \"The inputs are the 3 axes of the rotation matrix and the output is the corresponding quaternion\"), (\"Round\", \"The value of the float input rounded to the number of digits specified by the integer input.\"), (\"Sampler\", \"The first float array holds the timestamps of an array of values that are specified by the second generic array input. The third input holds the timestamps at which interpolated values need to be calculated. Only Float, Vector and Orientation are supported.\"), (\"Scale\", \"The generic input variable for which the value or all the components are multiplied by the factor specified by the float input. Unsupported types are: Boolean, Boolean array, Orientation, Orientation array, String and String array.\"), (\"Scale time\", \"The sequence for which the time of the first sample is set to the value of the first float input and the time of the last sample set to the value of the second float input. The time of all the other samples in between are scaled accordingly.\"), (\"Search array\", \"The output is the integer array holding the indices of the matches to the first input in the zero-based array.\"), (\"Select interval\", \"A new sequence where the first sample has the timestamp of the first float value and the last has the value of the other float. The values of those samples are calculated via interpolation. All the other samples are the same as the input sequence.\"), (\"Sequence rectifier\", \"A new sequence with all the rectified samples of the input sequence. When two consecutive samples are of different sign, an extra sample is added with value 0 and the interpolated timestamp at which the line between the two samples intersects with 0.\"), (\"Sequence timestamps\", \"An array containing the timestamps of all the samples of the input sequence.\"), (\"Sequence values\", \"An array containing the values of all the samples of the input sequence.\"), (\"Sequencer\", \"An internal sequence is created which stores all the updates of the second float value. The maximum allowed duration of this sequence is set to the value of the first float input. This means that when a new sample is added which would cause the sequence to become too long, all the oldest samples are deleted that fall outside the interval and a new first sample is added to the sequence with a timestamp equal to that of the last sample minus the duration and a value calculated via interpolation.\"), (\"Shift elements\", \"A new array where the float value is added to each element of the array.\"), (\"Shift time\", \"A new sequence which is a copy from the input sequence but with the value of the float input added to each timestamp.\"), (\"Sine\", \"The sine of the float input.\"), (\"Smaller\", \"Whether the first input is smaller than the second input. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Smaller or equal\", \"Whether the first input is smaller than or equal to the second input. Only implemented for Float and Integer. Unsupported types are: Boolean, Vector, and Orientation.\"), (\"Square root\", \"The square root of the input, i.e. input to the power of 0.5\"), (\"Start time\", \"The timestamp of the first sample in the sequence.\"), (\"Subtract\", \"The result of the subtraction operation performed on the two generic inputs which are of the same type. Unsupported types are: Boolean, Boolean array, String, String array.\"), (\"Switch\", \"When the boolean input is 'true', the first one of the generic inputs is forwarded when updated, otherwise the second generic input is forwarded when updated.\"), (\"Tangent\", \"The tangent of the float input.\"), (\"Time derivative\", \"A new sequence containing the time derivative of the input sequence.\"), (\"Time integral\", \"A new sequence containing the time integral of the input sequence, i.e. the area ‘under the curve’.\"), (\"Timestamp\", \"The timestamp at which the input value was updated.\"), (\"Toggled\", \"Whether or not the boolean input changed its value ('true' to 'false' or vice versa). Note that the first time the boolean input is updated is used to set the initial value and will not result in an output.\"), (\"Trendline intercept\", \"The intercept value of the linearized input sequence\"), (\"Trendline slope\", \"The slope of the linearized input sequence.\"), (\"Trigger\", \"When the boolean input is updated to true, the other input is forwarded as an update irrespective of whether it was updated or not.\"), (\"Trim\", \"A new array that is a subset of the input array containing the elements with a  0-based index larger or equal to the first integer input and smaller or equal to the second integer input.\"), (\"Update counter\", \"The number of times the input was updated.\"), (\"Updated\", \"Updates to 'true' when the input is updated. Note that this does not mean that actual value changed.\"), (\"Vector angle\", \"The angle in radians between the two input vectors.\"), (\"Vector cross product\", \"The cross-product of the two input vectors.\"), (\"Vector dot product\", \"The dot-product of the two input vectors.\"), (\"Vector length\", \"The length of the vector.\"), (\"Vector x-coordinate\", \"The x-coordinate of the vector.\"), (\"Vector y-coordinate\", \"The x-coordinate of the vector.\"), (\"Vector z-coordinate\", \"The x-coordinate of the vector.\"), (\"Xor\", \"The logical XOR operation between the two booleans.\")]"
+      "length": 16580,
+      "value": "[(\"Absolute\", \"The absolute value of the input. Unsupported types are: Boolean, Boolean array, String, String array, Orientation, Orientation array and Sequence array\"), (\"Add\", \"The addition operation is performed on the two generic inputs which are of the same type. Unsupported types: Boolean and Boolean array. \"), (\"Add to array\", \"A copy of the array with the supplied value is added to the end.\"), (\"Adder\", \"Sum of all previous updates.\"), (\"And\", \"The logical AND operation between the two booleans.\"), (\"Array sum\", \"The sum of all the elements in the array. Unsupported types are: Boolean array and Sequence array.\"), (\"Average\", \"The average value of the elements in the array.\"), (\"Averager\", \"Sum of all previous updates of the input during the time the boolean input is 'true', divided by the number of updates.\"), (\"Buffer\", \"The generic input delayed by the number of updates specified by the integer input. When the generic input is updated, the new value is stored in an internal array. When the size of this array is larger than the current value of the integer input, the oldest elements are removed to correct the size. After this is done, the first element in the array is forwarded to the output.\"), (\"Cap values\", \"A copy of the sequence input for which the value of all samples are limited to fall between the first and second float.\"), (\"Ceiling\", \"Rounds the float input up to the nearest integer.\"), (\"Centered moving average\", \"A new sequence containing the centered moving average of the input sequence where the size of the averaging window is specified by the integer input. The output is generated when the sequence input is updated.\"), (\"Clip\", \"A copy of the input array but with all elements removed that are smaller than the first float input or larger than the second float input.\"), (\"Combine arrays\", \"A new array in which the first array input is added into the second array input at the 0-based index specified by the integer input.\"), (\"Convert to sequence\", \"A new sequence with the timestamps specified by the first array input and the values by the second.\"), (\"Cosine\", \"The cosine value of the input float.\"), (\"Create array\", \"The updates of the value input are stored internally in an array. The array is offered as the output when the number of elements in the array is equal to the value of the integer input. Each time the value input updates the new value is added to the array and the oldest element is removed.\"), (\"Create sequence\", \"When the boolean is updated to 'true' an empty sequence is created internally and all subsequent updates of the float value are added as samples. When the boolean input becomes 'false', the output is updated with the created sequence.\"), (\"Cumulative sum\", \"Returns an array where each element is the sum of the elements before it in the input array. Unsupported types are: Boolean array and Sequence array.\"), (\"Degrees to radians\", \"The input float is multiplied by π and then divided by 180.\"), (\"Delay\", \"The value of the second float and its timestamp are buffered internally. Whenever a new update is received for that float, the buffered samples are used to calculate the interpolated value the float would have had at the time in the past specified by the current time minus the value of the second float.\"), (\"Derivative\", \"The time derivative of the float, calculated by taking the difference between the current and previous values, and dividing it by the difference between the current and previous timestamps, yielding the rate of change of the input float.\"), (\"Distance\", \"The distance between the two points specified by the input vectors.\"), (\"Divide\", \"The divide operation is performed on the two generic variable inputs which are of the same type. Unsupported types are: Boolean, Boolean array, String and String array.\"), (\"Duplicate\", \"Create an array containing the indicated number of duplicates of the input value.\"), (\"Duration\", \"The difference between the timestamp of the first and last sample.\"), (\"End time\", \"The timestamp of the last sample in the sequence.\"), (\"Equal\", \"Whether the two inputs are equal. For an array or sequence this must first mean that the number of elements is equal.\"), (\"Euler to quaternion\", \"The quaternion resulting from an Euler specified as a 3D vector input with the coordinates specifying yaw, pitch, roll.\"), (\"First\", \"The first element in the array\"), (\"Float\", \"The float representation of the input integer.\"), (\"Float interpolation\", \"The interpolated value between two float values (inputs 2 and 3) for a given time (input 1).\"), (\"Floor\", \"Rounds the float input down to the nearest integer.\"), (\"Gate\", \"Only when the boolean input is true is an update of the second input is forwarded to the output.\"), (\"Get element\", \"The element from the array input with the 0-based index equal to the integer input.\"), (\"Get interpolated values\", \"An array containing the interpolated values from the sequence at the timestamps defined by the input array.\"), (\"Histogram\", \"Calculate the histogram of the array of floats supplying the number of bins.\"), (\"Index of maximum\", \"The index of the maximum of the array. The function fails when the array is empty.\"), (\"Index of minimum\", \"The index of the minimum of the array. The function fails when the array is empty.\"), (\"Insert into array\", \"A copy of the array input with the value input inserted at the 0-based index specified by the integer input.\"), (\"Integer\", \"Integer representation of the truncated float.\"), (\"Integral\", \"The time integral of the float input which is calculated by determining the area under the curve of a function between two points. The integral is calculated using the trapezoidal rule.\"), (\"Intersections\", \"An array containing the timestamps of the interpolated intersections with the float value input.\"), (\"Inverse cosine\", \"The inverse cosine of the input float.\"), (\"Inverse quaternion\", \"The inverse of the quaternion input.\"), (\"Inverse sine\", \"The inverse sine of the input float.\"), (\"Inverse tangent\", \"The inverse tangent of the input float.\"), (\"JSON output\", \"A new JSON string is created which is a copy of the first string input that also contains a JSON string. A new element is added to the new JSON string using the second string input as the key for the value specified in the generic input.\"), (\"Lagrange interpolation\", \"Calculate the Lagrange interpolation value for the specified time, given the input sequence.\"), (\"Larger\", \"Whether the first input is larger than the second. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Larger or equal\", \"Whether the first input is larger than or equal to the second. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Last\", \"The last element in the array.\"), (\"Limiter\", \"The output is the first float unless it is larger than the second, then the output is the second float.\"), (\"Linearize\", \"The output is the trendline of the input sequence.\"), (\"Make quaternion\", \"The quaternion resulting from a rotation in radians as specified by the float input around the vector specified by the second input.\"), (\"Make vector\", \"A 3D vector is created for which the scalars are the input floats.\"), (\"Max\", \"The largest value of the two inputs. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Maximum\", \"The maximum value in the array.\"), (\"Min\", \"The lowest value of the two inputs. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Minimum\", \"The minimum value in the array.\"), (\"Modulo\", \"The modulo of the input.\"), (\"Moving averager\", \"The average of the last 'N' values of the input, with 'N' specified by the integer input.\"), (\"Multiply\", \"The result of the multiplication operation performed on the two generic inputs which are of the same type. Unsupported types are: Boolean, Boolean array, String and String array.\"), (\"Negate\", \"Negates the generic input. Unsupported types are: String and String array.\"), (\"Normalize\", \"A new sequence where the sample values are copied from the input sequence but the time 't' is scaled and shifted to start at 't' = 0 and end at 't' = 1.\"), (\"Normalize quaternion\", \"The normalized version of the input quaternion.\"), (\"Normalize vector\", \"The normalized version of the input vector.\"), (\"Not\", \"The logical inverse of the boolean input.\"), (\"Number of elements\", \"The number of elements in the array.\"), (\"Or\", \"The logical OR operation between the two booleans.\"), (\"Order\", \"The ordered input array. The boolean indicates whether the array must be done in ascending order. Unsupported types are: Sequence array, Vector array and Orientation array.\"), (\"Outer product\", \"The outer product of the two input vectors resulting in an array of 3 vectors.\"), (\"Pass updated\", \"The updated input. In the situation when both inputs are updated in the same timestamp, the first input is passed.\"), (\"Pass-through\", \"Simply the input when it is updated. Can be helpful to clean-up diagrams and during constructions of containers.\"), (\"Peak detector\", \"The maximum value of the second input above the threshold (first input). Output is generated when a new maximum is set.\"), (\"Percentile\", \"A percentile value of a list of numbers tells where the input value stands in relation to the rest of the numbers, i.e. how many numbers in the array are smaller than the input value.\"), (\"Power\", \"The value of the first input to the power of the second. Unsupported types are String, String array, Boolean, Boolean array, Orientation, Orientation array and Sequence array\"), (\"Quaternion\", \"Orientation that is created from the 4 floats (x,y,z,w) to create a normalized quaternion.\"), (\"Quaternion angle\", \"The angle in radians by which to rotate around the rotation axis to get the quaternion input.\"), (\"Quaternion axis\", \"The rotation axis around which to rotate with the rotation angle to get the quaternion input.\"), (\"Quaternion interpolation\", \"The spherical linear interpolation value between the two timestamped orientation inputs at the timestamp specified by the float input.\"), (\"Quaternion spline\", \"Interpolated quaternion between quaternions along a spherical cubic spline. The function interpolates between q_2 and q_3 with q_1 the left endpoint of the previous interval and q_4 the right endpoint of the next interval. This function smoothly interpolates between a sequence of rotations such that the quaternion and angular rate and acceleration vectors are continuous functions of time over the interpolation interval.\"), (\"Quaternion to Euler\", \"Euler vector (yaw, pitch, roll). The angles are in degrees.\"), (\"Radians to degrees\", \"The input float multiplied by 180 and divided by π.\"), (\"Remove indices\", \"The input array with the elements removed at specified indices.\"), (\"Remove from array\", \"The input array with the element removed at the specified index.\"), (\"Resample\", \"A new sequence created from the input sequence where the integer input specifies the new number of samples and with the new values calculated using interpolation. Note that the first and last sample of the new sequence are the same as in the input sequence.\"), (\"Reverse array\", \"Creates an array in reversed order as the input array.\"), (\"Rotate vector\", \"The input vector rotated with the specified quaternion.\"), (\"Rotation matrix to quaternion\", \"The inputs are the 3 axes of the rotation matrix and the output is the corresponding quaternion\"), (\"Round\", \"The value of the float input rounded to the number of digits specified by the integer input.\"), (\"Sampler\", \"The first float array holds the timestamps of an array of values that are specified by the second generic array input. The third input holds the timestamps at which interpolated values need to be calculated. Only Float, Vector and Orientation are supported.\"), (\"Scale\", \"The generic input variable for which the value or all the components are multiplied by the factor specified by the float input. Unsupported types are: Boolean, Boolean array, Orientation, Orientation array, String and String array.\"), (\"Scale time\", \"The sequence for which the time of the first sample is set to the value of the first float input and the time of the last sample set to the value of the second float input. The time of all the other samples in between are scaled accordingly.\"), (\"Search array\", \"The output is the integer array holding the indices of the matches to the first input in the zero-based array.\"), (\"Select interval\", \"A new sequence where the first sample has the timestamp of the first float value and the last has the value of the other float. The values of those samples are calculated via interpolation. All the other samples are the same as the input sequence.\"), (\"Sequence rectifier\", \"A new sequence with all the rectified samples of the input sequence. When two consecutive samples are of different sign, an extra sample is added with value 0 and the interpolated timestamp at which the line between the two samples intersects with 0.\"), (\"Sequence timestamps\", \"An array containing the timestamps of all the samples of the input sequence.\"), (\"Sequence values\", \"An array containing the values of all the samples of the input sequence.\"), (\"Sequencer\", \"An internal sequence is created which stores all the updates of the second float value. The maximum allowed duration of this sequence is set to the value of the first float input. This means that when a new sample is added which would cause the sequence to become too long, all the oldest samples are deleted that fall outside the interval and a new first sample is added to the sequence with a timestamp equal to that of the last sample minus the duration and a value calculated via interpolation.\"), (\"Shift elements\", \"A new array where the float value is added to each element of the array.\"), (\"Shift time\", \"A new sequence which is a copy from the input sequence but with the value of the float input added to each timestamp.\"), (\"Sine\", \"The sine of the float input.\"), (\"Smaller\", \"Whether the first input is smaller than the second input. Unsupported types are: Boolean, Vector and Orientation.\"), (\"Smaller or equal\", \"Whether the first input is smaller than or equal to the second input. Only implemented for Float and Integer. Unsupported types are: Boolean, Vector, and Orientation.\"), (\"Square root\", \"The square root of the input, i.e. input to the power of 0.5\"), (\"Start time\", \"The timestamp of the first sample in the sequence.\"), (\"Subtract\", \"The result of the subtraction operation performed on the two generic inputs which are of the same type. Unsupported types are: Boolean, Boolean array, String, String array.\"), (\"Switch\", \"When the boolean input is 'true', the first one of the generic inputs is forwarded when updated, otherwise the second generic input is forwarded when updated.\"), (\"Tangent\", \"The tangent of the float input.\"), (\"Time derivative\", \"A new sequence containing the time derivative of the input sequence.\"), (\"Time integral\", \"A new sequence containing the time integral of the input sequence, i.e. the area ‘under the curve’.\"), (\"Timestamp\", \"The timestamp at which the input value was updated.\"), (\"Toggled\", \"Whether or not the boolean input changed its value ('true' to 'false' or vice versa). Note that the first time the boolean input is updated is used to set the initial value and will not result in an output.\"), (\"Trendline intercept\", \"The intercept value of the linearized input sequence\"), (\"Trendline slope\", \"The slope of the linearized input sequence.\"), (\"Trigger\", \"When the boolean input is updated to true, the other input is forwarded as an update irrespective of whether it was updated or not.\"), (\"Trim\", \"A new array that is a subset of the input array containing the elements with a  0-based index larger or equal to the first integer input and smaller or equal to the second integer input.\"), (\"Update counter\", \"The number of times the input was updated.\"), (\"Updated\", \"Updates to 'true' when the input is updated. Note that this does not mean that actual value changed.\"), (\"Vector angle\", \"The angle in radians between the two input vectors.\"), (\"Vector cross product\", \"The cross-product of the two input vectors.\"), (\"Vector dot product\", \"The dot-product of the two input vectors.\"), (\"Vector length\", \"The length of the vector.\"), (\"Vector x-coordinate\", \"The x-coordinate of the vector.\"), (\"Vector y-coordinate\", \"The x-coordinate of the vector.\"), (\"Vector z-coordinate\", \"The x-coordinate of the vector.\"), (\"Xor\", \"The logical XOR operation between the two booleans.\")]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/JsonOutput.swift",
@@ -5308,98 +5308,98 @@
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 4314,
+      "offset": 4318,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 4647,
+      "offset": 4655,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 4984,
+      "offset": 4996,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 5321,
+      "offset": 5337,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 5656,
+      "offset": 5676,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 5995,
+      "offset": 6019,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 6330,
+      "offset": 6358,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 6676,
+      "offset": 6708,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 7026,
+      "offset": 7062,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 7376,
+      "offset": 7416,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 7724,
+      "offset": 7768,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 8082,
+      "offset": 8130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 8430,
+      "offset": 8482,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Nodes\/InputStreamNodes.swift",
       "kind": "BooleanLiteral",
-      "offset": 8782,
+      "offset": 8838,
       "length": 4,
       "value": "true"
     },
@@ -5854,539 +5854,546 @@
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 1827,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 1942,
-      "length": 15,
-      "value": "\"Generic value\""
+      "offset": 1912,
+      "length": 22,
+      "value": "\"Timestamped variable\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 2134,
+      "offset": 2111,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 2285,
+      "offset": 2262,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 2311,
+      "offset": 2288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 2337,
+      "offset": 2314,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 2733,
+      "offset": 2710,
       "length": 9,
       "value": "[\"*\", \"?\"]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 2817,
+      "offset": 2794,
       "length": 9,
       "value": "[\"*\", \"?\"]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 2875,
+      "offset": 2852,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 2942,
+      "offset": 2919,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 2983,
+      "offset": 2960,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 3092,
+      "offset": 3069,
       "length": 3,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 3141,
+      "offset": 3118,
       "length": 5,
       "value": "\"[?]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 3312,
+      "offset": 3289,
       "length": 9,
       "value": "[\"*\", \"?\"]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 3383,
+      "offset": 3360,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 3424,
+      "offset": 3401,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 3517,
+      "offset": 3494,
       "length": 3,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 3565,
+      "offset": 3542,
       "length": 5,
       "value": "\"[?]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 3952,
+      "offset": 3929,
       "length": 5,
       "value": "\"[?]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 4030,
+      "offset": 4007,
       "length": 3,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 4154,
+      "offset": 4131,
       "length": 3,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 4229,
+      "offset": 4206,
       "length": 3,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 4754,
+      "offset": 4731,
       "length": 24,
       "value": "\"<NO STRING CONVERSION>\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 4971,
+      "offset": 4948,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 5230,
+      "offset": 5207,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 5673,
+      "offset": 5650,
       "length": 9,
       "value": "\"()[]{} \""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 5786,
+      "offset": 5763,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 5854,
+      "offset": 5831,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 6542,
+      "offset": 6519,
       "length": 57,
       "value": "\"ERROR: converting \""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 6575,
+      "offset": 6552,
       "length": 2,
       "value": "\" to \""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 6590,
+      "offset": 6567,
       "length": 6,
       "value": "\" failed!\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 8168,
+      "offset": 8145,
       "length": 3,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 8213,
-      "length": 18,
-      "value": "\"Generic variable\""
+      "offset": 8190,
+      "length": 16,
+      "value": "\"Value variable\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 8403,
+      "offset": 8378,
       "length": 3,
       "value": "\"f\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 8448,
+      "offset": 8423,
       "length": 7,
       "value": "\"Float\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 8503,
+      "offset": 8478,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 8579,
+      "offset": 8554,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 9166,
+      "offset": 9141,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 12547,
+      "offset": 12522,
       "length": 3,
       "value": "\"i\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 12592,
+      "offset": 12567,
       "length": 9,
       "value": "\"Integer\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 12741,
+      "offset": 12716,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 12814,
+      "offset": 12789,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 13085,
+      "offset": 13060,
       "length": 5,
       "value": "\"%li\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 13405,
+      "offset": 13380,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 16518,
+      "offset": 16493,
       "length": 3,
       "value": "\"v\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 16563,
+      "offset": 16538,
       "length": 8,
       "value": "\"Vector\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 16707,
+      "offset": 16682,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 16789,
+      "offset": 16764,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 16791,
+      "offset": 16766,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 16793,
+      "offset": 16768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 17051,
+      "offset": 17026,
       "length": 54,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 17069,
+      "offset": 17044,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 17086,
+      "offset": 17061,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 17103,
+      "offset": 17078,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 17410,
+      "offset": 17385,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 17460,
+      "offset": 17435,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 17510,
+      "offset": 17485,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 19245,
+      "offset": 19220,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 19921,
+      "offset": 19896,
       "length": 3,
       "value": "\"b\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 19966,
+      "offset": 19941,
       "length": 9,
       "value": "\"Boolean\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 20115,
+      "offset": 20090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 20189,
+      "offset": 20164,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 20446,
+      "offset": 20421,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 20461,
+      "offset": 20436,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 20470,
+      "offset": 20445,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 20478,
+      "offset": 20453,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 20788,
+      "offset": 20763,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 21503,
+      "offset": 21478,
       "length": 3,
       "value": "\"q\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 21548,
+      "offset": 21523,
       "length": 13,
       "value": "\"Orientation\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 21701,
+      "offset": 21676,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 21784,
+      "offset": 21759,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 21789,
+      "offset": 21764,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 21794,
+      "offset": 21769,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 21798,
+      "offset": 21773,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 22068,
+      "offset": 22043,
       "length": 109,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 22096,
+      "offset": 22071,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 22123,
+      "offset": 22098,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
+      "kind": "StringLiteral",
+      "offset": 22125,
       "length": 1,
       "value": "\",\""
     },
@@ -6395,1349 +6402,1342 @@
       "kind": "StringLiteral",
       "offset": 22150,
       "length": 1,
-      "value": "\",\""
-    },
-    {
-      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
-      "kind": "StringLiteral",
-      "offset": 22175,
-      "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 22482,
+      "offset": 22457,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 22532,
+      "offset": 22507,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 22582,
+      "offset": 22557,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 22632,
+      "offset": 22607,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 24657,
+      "offset": 24632,
       "length": 3,
       "value": "\"s\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 24702,
+      "offset": 24677,
       "length": 10,
       "value": "\"Sequence\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 24977,
+      "offset": 24952,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 25333,
+      "offset": 25308,
       "length": 19,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 25342,
+      "offset": 25317,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 25350,
+      "offset": 25325,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 25374,
+      "offset": 25349,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 25539,
+      "offset": 25514,
       "length": 7,
       "value": "\"[t,f]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 25749,
+      "offset": 25724,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 25786,
+      "offset": 25761,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 25813,
+      "offset": 25788,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 25922,
+      "offset": 25897,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 26006,
+      "offset": 25981,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 26135,
+      "offset": 26110,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 26226,
+      "offset": 26201,
       "length": 3,
       "value": "\"f\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 26412,
+      "offset": 26387,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 28554,
+      "offset": 28529,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 28696,
+      "offset": 28671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 28741,
+      "offset": 28716,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 28982,
+      "offset": 28957,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 30069,
+      "offset": 30044,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 30184,
+      "offset": 30159,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 30227,
+      "offset": 30202,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 30759,
+      "offset": 30734,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 31392,
+      "offset": 31367,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 32172,
+      "offset": 32147,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 32414,
+      "offset": 32389,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 32564,
+      "offset": 32539,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 32571,
+      "offset": 32546,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 32613,
+      "offset": 32588,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 32620,
+      "offset": 32595,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 32888,
+      "offset": 32863,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 32931,
+      "offset": 32906,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 32968,
+      "offset": 32943,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 33001,
+      "offset": 32976,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 33075,
+      "offset": 33050,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 33514,
+      "offset": 33489,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 34039,
+      "offset": 34014,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 34093,
+      "offset": 34068,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 34147,
+      "offset": 34122,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 34166,
+      "offset": 34141,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 34209,
+      "offset": 34184,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 34331,
+      "offset": 34306,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 34627,
+      "offset": 34602,
       "length": 3,
       "value": "\"$\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 34672,
+      "offset": 34647,
       "length": 8,
       "value": "\"String\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 34820,
+      "offset": 34795,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 34896,
+      "offset": 34871,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 36755,
+      "offset": 36730,
       "length": 5,
       "value": "\"[?]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 36802,
-      "length": 7,
-      "value": "\"Array\""
+      "offset": 36777,
+      "length": 16,
+      "value": "\"Array variable\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 37746,
+      "offset": 37730,
       "length": 33,
       "value": "\"ERROR: sorting unsupported type\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 38300,
+      "offset": 38284,
       "length": 5,
       "value": "\"[f]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 38347,
+      "offset": 38331,
       "length": 13,
       "value": "\"Float array\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 38500,
+      "offset": 38484,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 38847,
+      "offset": 38831,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 38853,
+      "offset": 38837,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 38875,
+      "offset": 38859,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 39040,
+      "offset": 39024,
       "length": 5,
       "value": "\"[f]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 40040,
+      "offset": 40024,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 40064,
+      "offset": 40048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 40526,
+      "offset": 40510,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 40550,
+      "offset": 40534,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 41012,
+      "offset": 40996,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 41036,
+      "offset": 41020,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 41496,
+      "offset": 41480,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 41520,
+      "offset": 41504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 42282,
+      "offset": 42266,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 42377,
+      "offset": 42361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 42422,
+      "offset": 42406,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 43220,
+      "offset": 43204,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 43544,
+      "offset": 43528,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 43555,
+      "offset": 43539,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 43600,
+      "offset": 43584,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 43961,
+      "offset": 43945,
       "length": 5,
       "value": "\"[i]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 44008,
+      "offset": 43992,
       "length": 15,
       "value": "\"Integer array\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 44163,
+      "offset": 44147,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 44506,
+      "offset": 44490,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 44512,
+      "offset": 44496,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 44534,
+      "offset": 44518,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 44699,
+      "offset": 44683,
       "length": 5,
       "value": "\"[i]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 45524,
+      "offset": 45508,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 45842,
+      "offset": 45826,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 45853,
+      "offset": 45837,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 45895,
+      "offset": 45879,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 47121,
+      "offset": 47105,
       "length": 5,
       "value": "\"[b]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 47168,
+      "offset": 47152,
       "length": 15,
       "value": "\"Boolean array\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 47323,
+      "offset": 47307,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 47668,
+      "offset": 47652,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 47674,
+      "offset": 47658,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 47696,
+      "offset": 47680,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 47861,
+      "offset": 47845,
       "length": 5,
       "value": "\"[b]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 48913,
+      "offset": 48897,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 49008,
+      "offset": 48992,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 49053,
+      "offset": 49037,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 49428,
+      "offset": 49412,
       "length": 5,
       "value": "\"[$]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 49475,
+      "offset": 49459,
       "length": 14,
       "value": "\"String array\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 49629,
+      "offset": 49613,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 49977,
+      "offset": 49961,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 49983,
+      "offset": 49967,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 50005,
+      "offset": 49989,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 50170,
+      "offset": 50154,
       "length": 5,
       "value": "\"[$]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 50941,
+      "offset": 50925,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 50965,
+      "offset": 50949,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 51506,
+      "offset": 51490,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 51601,
+      "offset": 51585,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 51646,
+      "offset": 51630,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 51819,
+      "offset": 51803,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 52144,
+      "offset": 52128,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 52155,
+      "offset": 52139,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 52200,
+      "offset": 52184,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 52561,
+      "offset": 52545,
       "length": 5,
       "value": "\"[v]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 52608,
+      "offset": 52592,
       "length": 14,
       "value": "\"Vector array\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 52762,
+      "offset": 52746,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 53157,
+      "offset": 53141,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 53322,
+      "offset": 53306,
       "length": 5,
       "value": "\"[v]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 53751,
+      "offset": 53735,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 53757,
+      "offset": 53741,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 53817,
+      "offset": 53801,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 53852,
+      "offset": 53836,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 53859,
+      "offset": 53843,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 53933,
+      "offset": 53917,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 53995,
+      "offset": 53979,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 54000,
+      "offset": 53984,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 54062,
+      "offset": 54046,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 54655,
+      "offset": 54639,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 54679,
+      "offset": 54663,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 55159,
+      "offset": 55143,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 55183,
+      "offset": 55167,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 55663,
+      "offset": 55647,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 55687,
+      "offset": 55671,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 56165,
+      "offset": 56149,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 56189,
+      "offset": 56173,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 56981,
+      "offset": 56965,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 57076,
+      "offset": 57060,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 57121,
+      "offset": 57105,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 58489,
+      "offset": 58473,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 58500,
+      "offset": 58484,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 58941,
+      "offset": 58925,
       "length": 5,
       "value": "\"[q]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 58988,
+      "offset": 58972,
       "length": 19,
       "value": "\"Orientation array\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 59147,
+      "offset": 59131,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 59543,
+      "offset": 59527,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 59708,
+      "offset": 59692,
       "length": 5,
       "value": "\"[q]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 60127,
+      "offset": 60111,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 60133,
+      "offset": 60117,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 60193,
+      "offset": 60177,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 60228,
+      "offset": 60212,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 60235,
+      "offset": 60219,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 60307,
+      "offset": 60291,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 60367,
+      "offset": 60351,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 60372,
+      "offset": 60356,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 60432,
+      "offset": 60416,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 60437,
+      "offset": 60421,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 60497,
+      "offset": 60481,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 61084,
+      "offset": 61068,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 61108,
+      "offset": 61092,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 61592,
+      "offset": 61576,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 61616,
+      "offset": 61600,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 62101,
+      "offset": 62085,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 62125,
+      "offset": 62109,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 62607,
+      "offset": 62591,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 62631,
+      "offset": 62615,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 63413,
+      "offset": 63397,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 63508,
+      "offset": 63492,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 63553,
+      "offset": 63537,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 64283,
+      "offset": 64267,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "Array",
-      "offset": 64294,
+      "offset": 64278,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 64711,
+      "offset": 64695,
       "length": 5,
       "value": "\"[s]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 64758,
+      "offset": 64742,
       "length": 16,
       "value": "\"Sequence array\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "BooleanLiteral",
-      "offset": 64914,
+      "offset": 64898,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 65196,
+      "offset": 65180,
       "length": 5,
       "value": "\"[s]\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 65431,
+      "offset": 65415,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 65540,
+      "offset": 65524,
       "length": 3,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 65651,
+      "offset": 65635,
       "length": 27,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 65664,
+      "offset": 65648,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 65676,
+      "offset": 65660,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 65720,
+      "offset": 65704,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 65780,
+      "offset": 65764,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 65849,
+      "offset": 65833,
       "length": 3,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 65906,
+      "offset": 65890,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 65958,
+      "offset": 65942,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 66312,
+      "offset": 66296,
       "length": 7,
       "value": "\")),((\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 66424,
+      "offset": 66408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 66455,
+      "offset": 66439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 66650,
+      "offset": 66634,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 66746,
+      "offset": 66730,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 66891,
+      "offset": 66875,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 66994,
+      "offset": 66978,
       "length": 3,
       "value": "\"f\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/TimestampedVariables.swift",
       "kind": "StringLiteral",
-      "offset": 67204,
+      "offset": 67188,
       "length": 3,
       "value": "\"t\""
     },
@@ -7971,6 +7971,34 @@
       "offset": 11417,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/VectorOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 12102,
+      "length": 15,
+      "value": "\"Outer product\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/VectorOperations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12482,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/VectorOperations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12542,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/VectorOperations.swift",
+      "kind": "Array",
+      "offset": 12613,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
@@ -8699,6 +8727,76 @@
       "offset": 28599,
       "length": 5,
       "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "StringLiteral",
+      "offset": 29175,
+      "length": 11,
+      "value": "\"Histogram\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29552,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29603,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29667,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "StringLiteral",
+      "offset": 29713,
+      "length": 39,
+      "value": "\"Array must contain at least 2 values!\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "Array",
+      "offset": 29957,
+      "length": 3,
+      "value": "[0]"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30002,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30180,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30238,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/ArrayFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30244,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/TrigonometricFunctions.swift",
@@ -12124,6 +12222,55 @@
       "value": "\"ERROR: interpolation unsupported type\""
     },
     {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "StringLiteral",
+      "offset": 39617,
+      "length": 24,
+      "value": "\"Lagrange interpolation\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40003,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40061,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40161,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40189,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "FloatLiteral",
+      "offset": 40239,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/Functions\/SequenceFunctions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40264,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/DataflowDiagram.swift",
       "kind": "Dictionary",
       "offset": 1519,
@@ -13169,49 +13316,126 @@
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
       "kind": "Array",
-      "offset": 1984,
+      "offset": 2473,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
       "kind": "StringLiteral",
-      "offset": 2265,
-      "length": 47,
+      "offset": 3455,
+      "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
       "kind": "StringLiteral",
-      "offset": 2280,
+      "offset": 3570,
+      "length": 56,
+      "value": "\"('\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3588,
       "length": 1,
-      "value": "\"\t\""
+      "value": "\"','\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
       "kind": "StringLiteral",
-      "offset": 2311,
+      "offset": 3622,
+      "length": 1,
+      "value": "\"',\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3684,
+      "length": 63,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3738,
       "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3743,
+      "length": 1,
+      "value": "\"',\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3786,
+      "length": 18,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3802,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3843,
+      "length": 69,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3903,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3908,
+      "length": 1,
+      "value": "\"')\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3951,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
+      "kind": "StringLiteral",
+      "offset": 3967,
+      "length": 1,
+      "value": "\",\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
       "kind": "Array",
-      "offset": 2676,
+      "offset": 4323,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
       "kind": "StringLiteral",
-      "offset": 3043,
+      "offset": 4690,
       "length": 46,
       "value": "\"ERROR: Function '\""
     },
     {
       "filePath": "\/Users\/fred\/Repositories\/Proavatar repositories\/DataflowDiagramFramework\/DataflowDiagramSDK\/DataflowDiagramSDK\/DataflowDiagram\/SubclassList.swift",
       "kind": "StringLiteral",
-      "offset": 3075,
+      "offset": 4722,
       "length": 16,
       "value": "\"' is missing!\""
     }
